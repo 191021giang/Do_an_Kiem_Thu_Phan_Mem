@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL_Books.cs" />
+    <Compile Include="DAL_DNAdmin.cs" />
+    <Compile Include="DAL_DNUser.cs" />
     <Compile Include="DAL_Users.cs" />
     <Compile Include="DBConnection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

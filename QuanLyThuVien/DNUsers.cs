@@ -7,13 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
-using System.Configuration;
+using DTO;
+using BUS;
 
 namespace QuanLyThuVien
 {
     public partial class DNUsers : Form
     {
+        DTO_Users dto_user = new DTO_Users();
+        BUS_DNUser bus_dnuser = new BUS_DNUser();
         public DNUsers()
         {
             InitializeComponent();
@@ -33,46 +35,26 @@ namespace QuanLyThuVien
 
         private void btDangNhapUser_Click(object sender, EventArgs e)
         {
-            SqlConnection cnn = new SqlConnection();
-            cnn.ConnectionString = ConfigurationSettings.AppSettings["mssql_cnstr"];
+            dto_user.users_account = txtTaiKhoanUser.Text;
+            dto_user.users_password = txtMatKhauUser.Text;
+            string us = bus_dnuser.CheckUser(dto_user);
+            switch(us)
+            {
+                case "Khongtaikhoan":
+                    MessageBox.Show("Tài khoản không được để trống");
+                    return;
 
-            try
-            {
-                cnn.Open();
-                SqlCommand cmd = new SqlCommand();
-                cmd.Connection = cnn;
-                cmd.CommandText = "DNUsers";
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@Taikhoan", txtTaiKhoanUser.Text);
-                cmd.Parameters.AddWithValue("@Matkhau", txtMatKhauUser.Text);
-                object kq = cmd.ExecuteScalar();
-                int code = Convert.ToInt32(kq);
-                if (code == 1)
-                {
-                    MessageBox.Show("Chào mừng User đăng nhập", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else if (code == 2)
-                {
-                    MessageBox.Show("Tài khoản hoặc mật khẩu không đúng !!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    txtTaiKhoanUser.Text = "";
-                    txtMatKhauUser.Text = "";
-                    txtTaiKhoanUser.Focus();
-                }
-                else
-                {
-                    MessageBox.Show("Tài khoản không tồn tại!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    txtTaiKhoanUser.Text = "";
-                    txtMatKhauUser.Text = "";
-                    txtTaiKhoanUser.Focus();
-                }
-                cnn.Close();
+                case "Khongmatkhau":
+                    MessageBox.Show("Mật khẩu không được để trống");
+                    return;
+
+                case "Tài khoản hoặc mật khẩu không chính xác!":
+                    MessageBox.Show("Tài khoản hoặc mật khẩu không chính xác!");
+                    return;
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+            MessageBox.Show("Chào mừng User đăng nhập", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
-
+       
         private void txtTaiKhoanUser_MouseClick(object sender, MouseEventArgs e)
         {
             txtTaiKhoanUser.SelectAll();
@@ -107,6 +89,11 @@ namespace QuanLyThuVien
         {
             if (!Char.IsLetter(e.KeyChar) && (Keys)e.KeyChar != Keys.Back)
                 e.Handled = true;
+        }
+
+        private void DNUsers_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -169,6 +169,7 @@ namespace QuanLyThuVien
             this.Controls.Add(this.lbDangNhap);
             this.Name = "DNUsers";
             this.Text = "USER LOGIN ";
+            this.Load += new System.EventHandler(this.DNUsers_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
