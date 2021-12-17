@@ -1,0 +1,6 @@
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\DTO\bin\Debug\DTO.dll
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\DTO\bin\Debug\DTO.pdb
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\DTO\obj\Debug\DTO.dll
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\DTO\obj\Debug\DTO.pdb
