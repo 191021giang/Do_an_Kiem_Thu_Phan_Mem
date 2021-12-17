@@ -29,6 +29,7 @@ namespace QuanLyThuVien
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Books));
             this.grid = new System.Windows.Forms.DataGridView();
             this.lbBookName = new System.Windows.Forms.Label();
             this.lbAuthor_id = new System.Windows.Forms.Label();
@@ -52,6 +53,7 @@ namespace QuanLyThuVien
             // 
             // grid
             // 
+            this.grid.BackgroundColor = System.Drawing.Color.White;
             this.grid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grid.Location = new System.Drawing.Point(38, 80);
             this.grid.Name = "grid";
@@ -64,123 +66,128 @@ namespace QuanLyThuVien
             // lbBookName
             // 
             this.lbBookName.AutoSize = true;
-            this.lbBookName.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbBookName.Location = new System.Drawing.Point(35, 388);
+            this.lbBookName.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbBookName.Location = new System.Drawing.Point(39, 437);
             this.lbBookName.Name = "lbBookName";
-            this.lbBookName.Size = new System.Drawing.Size(84, 17);
+            this.lbBookName.Size = new System.Drawing.Size(91, 22);
             this.lbBookName.TabIndex = 2;
-            this.lbBookName.Text = "BookName";
+            this.lbBookName.Text = "Tên sách";
             // 
             // lbAuthor_id
             // 
             this.lbAuthor_id.AutoSize = true;
-            this.lbAuthor_id.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbAuthor_id.Location = new System.Drawing.Point(35, 483);
+            this.lbAuthor_id.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbAuthor_id.Location = new System.Drawing.Point(39, 575);
             this.lbAuthor_id.Name = "lbAuthor_id";
-            this.lbAuthor_id.Size = new System.Drawing.Size(78, 17);
+            this.lbAuthor_id.Size = new System.Drawing.Size(102, 22);
             this.lbAuthor_id.TabIndex = 4;
-            this.lbAuthor_id.Text = "Author_id";
+            this.lbAuthor_id.Text = "Mã tác giả";
             // 
             // txtAuthor_id
             // 
             this.txtAuthor_id.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtAuthor_id.Location = new System.Drawing.Point(144, 479);
+            this.txtAuthor_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAuthor_id.Location = new System.Drawing.Point(197, 573);
             this.txtAuthor_id.Multiline = true;
             this.txtAuthor_id.Name = "txtAuthor_id";
-            this.txtAuthor_id.Size = new System.Drawing.Size(83, 31);
+            this.txtAuthor_id.Size = new System.Drawing.Size(83, 40);
             this.txtAuthor_id.TabIndex = 3;
             this.txtAuthor_id.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAuthor_id_KeyPress);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(433, 388);
+            this.label1.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(537, 437);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(118, 17);
+            this.label1.Size = new System.Drawing.Size(132, 22);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Publisher_name";
+            this.label1.Text = "Nhà xuất bản";
             // 
             // txtPublisher
             // 
             this.txtPublisher.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPublisher.Location = new System.Drawing.Point(568, 385);
+            this.txtPublisher.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPublisher.Location = new System.Drawing.Point(721, 426);
             this.txtPublisher.Multiline = true;
             this.txtPublisher.Name = "txtPublisher";
-            this.txtPublisher.Size = new System.Drawing.Size(231, 24);
+            this.txtPublisher.Size = new System.Drawing.Size(222, 43);
             this.txtPublisher.TabIndex = 5;
             this.txtPublisher.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPublisher_KeyPress);
             // 
             // lbQuantity
             // 
             this.lbQuantity.AutoSize = true;
-            this.lbQuantity.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbQuantity.Location = new System.Drawing.Point(433, 434);
+            this.lbQuantity.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbQuantity.Location = new System.Drawing.Point(537, 506);
             this.lbQuantity.Name = "lbQuantity";
-            this.lbQuantity.Size = new System.Drawing.Size(72, 17);
+            this.lbQuantity.Size = new System.Drawing.Size(140, 22);
             this.lbQuantity.TabIndex = 8;
-            this.lbQuantity.Text = " Quantity";
+            this.lbQuantity.Text = "Số lượng nhập";
             // 
             // txtQuantity
             // 
             this.txtQuantity.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtQuantity.Location = new System.Drawing.Point(568, 428);
+            this.txtQuantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtQuantity.Location = new System.Drawing.Point(721, 504);
             this.txtQuantity.Multiline = true;
             this.txtQuantity.Name = "txtQuantity";
-            this.txtQuantity.Size = new System.Drawing.Size(80, 31);
+            this.txtQuantity.Size = new System.Drawing.Size(80, 39);
             this.txtQuantity.TabIndex = 7;
             this.txtQuantity.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtQuantity_KeyPress);
             // 
             // lbCategory_id
             // 
             this.lbCategory_id.AutoSize = true;
-            this.lbCategory_id.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCategory_id.Location = new System.Drawing.Point(35, 437);
+            this.lbCategory_id.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCategory_id.Location = new System.Drawing.Point(39, 506);
             this.lbCategory_id.Name = "lbCategory_id";
-            this.lbCategory_id.Size = new System.Drawing.Size(93, 17);
+            this.lbCategory_id.Size = new System.Drawing.Size(121, 22);
             this.lbCategory_id.TabIndex = 10;
-            this.lbCategory_id.Text = "Category_id";
+            this.lbCategory_id.Text = "Mã loại sách";
             // 
             // txtCategory_id
             // 
             this.txtCategory_id.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCategory_id.Location = new System.Drawing.Point(144, 430);
+            this.txtCategory_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCategory_id.Location = new System.Drawing.Point(197, 504);
             this.txtCategory_id.Multiline = true;
             this.txtCategory_id.Name = "txtCategory_id";
-            this.txtCategory_id.Size = new System.Drawing.Size(83, 28);
+            this.txtCategory_id.Size = new System.Drawing.Size(83, 39);
             this.txtCategory_id.TabIndex = 9;
             this.txtCategory_id.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCategory_id_KeyPress);
             // 
             // lbAquantity
             // 
             this.lbAquantity.AutoSize = true;
-            this.lbAquantity.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbAquantity.Location = new System.Drawing.Point(415, 480);
+            this.lbAquantity.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbAquantity.Location = new System.Drawing.Point(537, 575);
             this.lbAquantity.Name = "lbAquantity";
-            this.lbAquantity.Size = new System.Drawing.Size(136, 17);
+            this.lbAquantity.Size = new System.Drawing.Size(160, 22);
             this.lbAquantity.TabIndex = 12;
-            this.lbAquantity.Text = " Available Quantity";
+            this.lbAquantity.Text = "Số lượng hiện có";
             // 
             // txtAquantity
             // 
             this.txtAquantity.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtAquantity.Location = new System.Drawing.Point(568, 477);
+            this.txtAquantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAquantity.Location = new System.Drawing.Point(721, 575);
             this.txtAquantity.Multiline = true;
             this.txtAquantity.Name = "txtAquantity";
-            this.txtAquantity.Size = new System.Drawing.Size(80, 30);
+            this.txtAquantity.Size = new System.Drawing.Size(80, 38);
             this.txtAquantity.TabIndex = 11;
             this.txtAquantity.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAquantity_KeyPress);
             // 
             // btInsert
             // 
-            this.btInsert.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btInsert.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btInsert.Location = new System.Drawing.Point(836, 356);
+            this.btInsert.BackColor = System.Drawing.Color.Moccasin;
+            this.btInsert.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btInsert.Location = new System.Drawing.Point(836, 344);
             this.btInsert.Name = "btInsert";
             this.btInsert.Size = new System.Drawing.Size(136, 40);
             this.btInsert.TabIndex = 13;
@@ -190,9 +197,9 @@ namespace QuanLyThuVien
             // 
             // btUpdate
             // 
-            this.btUpdate.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btUpdate.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btUpdate.Location = new System.Drawing.Point(836, 418);
+            this.btUpdate.BackColor = System.Drawing.Color.Moccasin;
+            this.btUpdate.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btUpdate.Location = new System.Drawing.Point(694, 344);
             this.btUpdate.Name = "btUpdate";
             this.btUpdate.Size = new System.Drawing.Size(136, 40);
             this.btUpdate.TabIndex = 14;
@@ -202,9 +209,9 @@ namespace QuanLyThuVien
             // 
             // btDelete
             // 
-            this.btDelete.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btDelete.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btDelete.Location = new System.Drawing.Point(836, 479);
+            this.btDelete.BackColor = System.Drawing.Color.Moccasin;
+            this.btDelete.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btDelete.Location = new System.Drawing.Point(552, 344);
             this.btDelete.Name = "btDelete";
             this.btDelete.Size = new System.Drawing.Size(136, 40);
             this.btDelete.TabIndex = 15;
@@ -225,9 +232,9 @@ namespace QuanLyThuVien
             // 
             // btThoat
             // 
-            this.btThoat.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btThoat.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btThoat.Location = new System.Drawing.Point(836, 543);
+            this.btThoat.BackColor = System.Drawing.Color.Moccasin;
+            this.btThoat.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btThoat.Location = new System.Drawing.Point(836, 659);
             this.btThoat.Name = "btThoat";
             this.btThoat.Size = new System.Drawing.Size(136, 40);
             this.btThoat.TabIndex = 20;
@@ -237,10 +244,11 @@ namespace QuanLyThuVien
             // 
             // txtBookname
             // 
-            this.txtBookname.Location = new System.Drawing.Point(144, 385);
+            this.txtBookname.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBookname.Location = new System.Drawing.Point(197, 426);
             this.txtBookname.Multiline = true;
             this.txtBookname.Name = "txtBookname";
-            this.txtBookname.Size = new System.Drawing.Size(262, 25);
+            this.txtBookname.Size = new System.Drawing.Size(262, 43);
             this.txtBookname.TabIndex = 21;
             this.txtBookname.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBookname_KeyPress);
             // 
@@ -248,8 +256,8 @@ namespace QuanLyThuVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.PapayaWhip;
-            this.ClientSize = new System.Drawing.Size(1021, 617);
+            this.BackColor = System.Drawing.Color.Linen;
+            this.ClientSize = new System.Drawing.Size(1021, 727);
             this.Controls.Add(this.txtBookname);
             this.Controls.Add(this.btThoat);
             this.Controls.Add(this.lbTSX);
@@ -268,8 +276,9 @@ namespace QuanLyThuVien
             this.Controls.Add(this.txtAuthor_id);
             this.Controls.Add(this.lbBookName);
             this.Controls.Add(this.grid);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Books";
-            this.Text = "Book";
+            this.Text = "Chỉnh Sửa Sách";
             this.Load += new System.EventHandler(this.Books_Load);
             ((System.ComponentModel.ISupportInitialize)(this.grid)).EndInit();
             this.ResumeLayout(false);

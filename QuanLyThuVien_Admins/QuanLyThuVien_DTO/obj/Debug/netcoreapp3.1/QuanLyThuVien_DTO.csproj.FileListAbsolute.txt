@@ -27,3 +27,4 @@ D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_DTO\obj\Debug\netc
 D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_DTO\obj\Debug\netcoreapp3.1\QuanLyThuVien_DTO.csproj.CoreCompileInputs.cache
 D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_DTO\obj\Debug\netcoreapp3.1\QuanLyThuVien_DTO.dll
 D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_DTO\obj\Debug\netcoreapp3.1\QuanLyThuVien_DTO.pdb
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_DTO\obj\Debug\netcoreapp3.1\QuanLyThuVien_DTO.csproj.AssemblyReference.cache

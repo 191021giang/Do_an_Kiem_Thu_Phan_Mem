@@ -108,7 +108,7 @@ namespace QuanLyThuVien
             // 
             // btDangNhapAdmin
             // 
-            this.btDangNhapAdmin.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btDangNhapAdmin.BackColor = System.Drawing.Color.Moccasin;
             this.btDangNhapAdmin.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btDangNhapAdmin.Location = new System.Drawing.Point(158, 365);
             this.btDangNhapAdmin.Name = "btDangNhapAdmin";
@@ -120,7 +120,7 @@ namespace QuanLyThuVien
             // 
             // btThoatDangNhapAdmin
             // 
-            this.btThoatDangNhapAdmin.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btThoatDangNhapAdmin.BackColor = System.Drawing.Color.Moccasin;
             this.btThoatDangNhapAdmin.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btThoatDangNhapAdmin.Location = new System.Drawing.Point(491, 365);
             this.btThoatDangNhapAdmin.Name = "btThoatDangNhapAdmin";
@@ -166,6 +166,7 @@ namespace QuanLyThuVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Linen;
             this.ClientSize = new System.Drawing.Size(788, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.cbHienThiMatKhau);
@@ -177,6 +178,7 @@ namespace QuanLyThuVien
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbDangNhap);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DNAdmin";
             this.Text = "ADMIN LOGIN";
             this.Load += new System.EventHandler(this.DNAdmin_Load);

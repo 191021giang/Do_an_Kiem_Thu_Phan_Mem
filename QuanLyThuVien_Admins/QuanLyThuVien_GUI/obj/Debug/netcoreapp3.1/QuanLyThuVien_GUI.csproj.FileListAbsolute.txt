@@ -88,14 +88,4 @@ D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_GUI\obj\Debug\netc
 D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_GUI\obj\Debug\netcoreapp3.1\QuanLyThuVien_GUI.csproj.CoreCompileInputs.cache
 D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_GUI\obj\Debug\netcoreapp3.1\QuanLyThuVien_GUI.genruntimeconfig.cache
 D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_GUI\obj\Debug\netcoreapp3.1\QuanLyThuVien_GUI.f_HomePage.resources
-D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_GUI\obj\Debug\netcoreapp3.1\QuanLyThuVien.f_Books.resources
-D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_GUI\obj\Debug\netcoreapp3.1\QuanLyThuVien.f_DK.resources
-D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_GUI\obj\Debug\netcoreapp3.1\QuanLyThuVien.f_DN.resources
-D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_GUI\obj\Debug\netcoreapp3.1\QuanLyThuVien.f_DNAdmin.resources
-D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_GUI\obj\Debug\netcoreapp3.1\QuanLyThuVien.f_DNUsers.resources
-D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_GUI\bin\Debug\netcoreapp3.1\QuanLyThuVien_GUI.dll.config
-D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_GUI\obj\Debug\netcoreapp3.1\QuanLyThuVien.Books.resources
-D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_GUI\obj\Debug\netcoreapp3.1\QuanLyThuVien.DK.resources
-D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_GUI\obj\Debug\netcoreapp3.1\QuanLyThuVien.DN.resources
-D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_GUI\obj\Debug\netcoreapp3.1\QuanLyThuVien.DNAdmin.resources
-D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_GUI\obj\Debug\netcoreapp3.1\QuanLyThuVien.DNUsers.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_GUI\obj\Debug\netcoreapp3.1\QuanLyThuVien_GUI.csproj.CopyComplete

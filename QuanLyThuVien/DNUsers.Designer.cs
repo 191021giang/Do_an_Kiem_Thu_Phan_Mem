@@ -44,7 +44,7 @@ namespace QuanLyThuVien
             // 
             // btThoatDangNhapUser
             // 
-            this.btThoatDangNhapUser.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btThoatDangNhapUser.BackColor = System.Drawing.Color.Moccasin;
             this.btThoatDangNhapUser.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btThoatDangNhapUser.Location = new System.Drawing.Point(509, 377);
             this.btThoatDangNhapUser.Name = "btThoatDangNhapUser";
@@ -56,7 +56,7 @@ namespace QuanLyThuVien
             // 
             // btDangNhapUser
             // 
-            this.btDangNhapUser.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btDangNhapUser.BackColor = System.Drawing.Color.Moccasin;
             this.btDangNhapUser.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btDangNhapUser.Location = new System.Drawing.Point(132, 377);
             this.btDangNhapUser.Name = "btDangNhapUser";
@@ -157,6 +157,7 @@ namespace QuanLyThuVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Linen;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.cbHienThiMatKhau);
@@ -167,6 +168,7 @@ namespace QuanLyThuVien
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbDangNhap);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DNUsers";
             this.Text = "USER LOGIN ";
             this.Load += new System.EventHandler(this.DNUsers_Load);

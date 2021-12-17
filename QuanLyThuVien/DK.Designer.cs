@@ -30,6 +30,7 @@ namespace QuanLyThuVien
         
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DK));
             this.lbDangKy = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
@@ -57,7 +58,7 @@ namespace QuanLyThuVien
             // lbDangKy
             // 
             this.lbDangKy.AutoSize = true;
-            this.lbDangKy.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.lbDangKy.BackColor = System.Drawing.Color.Linen;
             this.lbDangKy.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbDangKy.ForeColor = System.Drawing.Color.Maroon;
             this.lbDangKy.Location = new System.Drawing.Point(231, 24);
@@ -91,7 +92,7 @@ namespace QuanLyThuVien
             // 
             // btDangKy
             // 
-            this.btDangKy.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btDangKy.BackColor = System.Drawing.Color.Moccasin;
             this.btDangKy.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btDangKy.Location = new System.Drawing.Point(162, 534);
             this.btDangKy.Name = "btDangKy";
@@ -103,7 +104,7 @@ namespace QuanLyThuVien
             // 
             // btThoatDangKy
             // 
-            this.btThoatDangKy.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btThoatDangKy.BackColor = System.Drawing.Color.Moccasin;
             this.btThoatDangKy.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btThoatDangKy.Location = new System.Drawing.Point(496, 534);
             this.btThoatDangKy.Name = "btThoatDangKy";
@@ -306,6 +307,7 @@ namespace QuanLyThuVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Linen;
             this.ClientSize = new System.Drawing.Size(794, 592);
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.lbMSSV);
@@ -329,8 +331,9 @@ namespace QuanLyThuVien
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lbDangKy);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DK";
-            this.Text = "FormDK";
+            this.Text = "Đăng Ký Tài Khoản";
             this.Load += new System.EventHandler(this.DK_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -29,6 +29,7 @@ namespace QuanLyThuVien
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DN));
             this.btAdmin = new System.Windows.Forms.Button();
             this.btUser = new System.Windows.Forms.Button();
             this.lbDangNhap = new System.Windows.Forms.Label();
@@ -75,7 +76,7 @@ namespace QuanLyThuVien
             // 
             // btDangKy
             // 
-            this.btDangKy.BackColor = System.Drawing.Color.SteelBlue;
+            this.btDangKy.BackColor = System.Drawing.Color.Moccasin;
             this.btDangKy.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btDangKy.Location = new System.Drawing.Point(227, 353);
             this.btDangKy.Name = "btDangKy";
@@ -87,7 +88,7 @@ namespace QuanLyThuVien
             // 
             // btThoatDN
             // 
-            this.btThoatDN.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btThoatDN.BackColor = System.Drawing.Color.Moccasin;
             this.btThoatDN.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btThoatDN.Location = new System.Drawing.Point(430, 353);
             this.btThoatDN.Name = "btThoatDN";
@@ -100,24 +101,22 @@ namespace QuanLyThuVien
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label1.BackColor = System.Drawing.Color.SeaShell;
             this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(298, 158);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(248, 26);
+            this.label1.Size = new System.Drawing.Size(246, 24);
             this.label1.TabIndex = 6;
             this.label1.Text = "Đăng nhập tư cách Admin ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label2.BackColor = System.Drawing.Color.SeaShell;
             this.label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(298, 227);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(232, 26);
+            this.label2.Size = new System.Drawing.Size(230, 24);
             this.label2.TabIndex = 7;
             this.label2.Text = "Đăng nhập tư cách User ";
             // 
@@ -125,6 +124,7 @@ namespace QuanLyThuVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Linen;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -134,6 +134,7 @@ namespace QuanLyThuVien
             this.Controls.Add(this.btUser);
             this.Controls.Add(this.btAdmin);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DN";
             this.Text = "LOGIN";
             this.ResumeLayout(false);
