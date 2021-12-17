@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
 using DTO;
-using QuanLyThuVien_DAL;
-
 namespace DAL
 {
     public class DAL_Books
