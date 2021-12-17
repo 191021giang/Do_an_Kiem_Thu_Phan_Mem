@@ -14,12 +14,12 @@ namespace QuanLyThuVien
 {
     public partial class DK : Form
     {
-        
+
         DTO_Users dto_user = new DTO_Users();
         BindingSource bs;
         public DK()
         {
-            InitializeComponent();          
+            InitializeComponent();
         }
         BUS_Users bus_user = new BUS_Users();
 
@@ -28,30 +28,12 @@ namespace QuanLyThuVien
             string[] arr = hoTen.Split(' ');
             for (int i = 0; i < arr.Length; i++)
             {
-                if (char.IsLower(arr[i][0]) == true) return false;
+                if (char.IsLower(arr[i][0]) == true)
+                    return false;
+
             }
             return true;
         }
-        //static public bool MK ( string mk)
-        //{
-        //    if(mk.Length <11 && mk.Length >7)
-        //    {
-        //        return false;
-        //    }
-        //    for (int a = 0 , a < mk.Length; a++)
-        //    {
-        //        if((mk[a] >= 'A'))
-        //    }    
-        //}
-        //public bool Checkemail(string em)
-        //{
-        //    bool kq = false;
-        //    if (Regex.IsMatch(em, "^[0-9a-zA-Z._-]+@[a-zA-Z]+.[a-zA-Z].[a-zA-Z]+$"))
-        //    {
-        //        kq = true;
-        //    }
-        //    return kq;
-        //}
         public bool KTMatKhau()
         {
             bool kq = false;
@@ -61,43 +43,43 @@ namespace QuanLyThuVien
         }
 
         private void btDangKy_Click(object sender, EventArgs e)
-        {            
-                     
+        {
+
             if (txtID.Text.Trim() != "" && txtHoTen.Text.Trim() != "" && txtEmail.Text.Trim() != "" && txtSDT.Text.Trim() != "" && txtQuan.Text.Trim() != "" && txtThanhPho.Text.Trim() != "" && txtTenTaiKhoan.Text.Trim() != "" && txtMatKhau.Text.Trim() != "")
             {
-                if(KTMatKhau())
+                if (KTMatKhau())
                 {
                     string ht = txtHoTen.Text;
                     if (KiemTraHoTen(ht))
-                        {                                                     
-                                dto_user.users_id = Int32.Parse(txtID.Text);
-                                dto_user.users_name = txtHoTen.Text;
-                                dto_user.users_email = txtEmail.Text;
-                                dto_user.users_phone = txtSDT.Text;
-                                dto_user.users_district = txtQuan.Text;
-                                dto_user.users_city = txtThanhPho.Text;
-                                dto_user.users_account = txtTenTaiKhoan.Text;
-                                dto_user.users_password = txtMatKhau.Text;
-                                int i = bus_user.Insert(dto_user);
-                                if (i != 0)
-                                {
-                                    MessageBox.Show("Dang ky thanh cong !", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                                    txtID.Text = i.ToString();
-                                    LoadData();
-                                }
-                                else
-                                    MessageBox.Show("Bạn không phải sinh viên OU !", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);                            
+                    {
+                        dto_user.users_id = Int32.Parse(txtID.Text);
+                        dto_user.users_name = txtHoTen.Text;
+                        dto_user.users_email = txtEmail.Text;
+                        dto_user.users_phone = txtSDT.Text;
+                        dto_user.users_district = txtQuan.Text;
+                        dto_user.users_city = txtThanhPho.Text;
+                        dto_user.users_account = txtTenTaiKhoan.Text;
+                        dto_user.users_password = txtMatKhau.Text;
+                        int i = bus_user.Insert(dto_user);
+                        if (i != 0)
+                        {
+                            MessageBox.Show("Đăng ký thành công !", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            txtID.Text = i.ToString();
+                            LoadData();
                         }
                         else
-                            MessageBox.Show("Vui lòng viết hoa ký tự đầu tiên !", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);                   
-                }  
+                            MessageBox.Show("Bạn không phải sinh viên OU !", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                        MessageBox.Show("Độ dài Họ tên tối thiểu 10 ký tự, ký tự đầu phải viết hoa  !", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
                 else
                     MessageBox.Show("Xác nhận mật khẩu không trùng khớp !", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
             else
-                MessageBox.Show("Vui lòng nhập đầy đủ thông tin !", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);          
-        }                   
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin !", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
         private void DK_Load(object sender, EventArgs e)
         {
             LoadData();
@@ -123,13 +105,13 @@ namespace QuanLyThuVien
         }
         private void txtQuan_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!Char.IsLetterOrDigit(e.KeyChar) && e.KeyChar != (Char)Keys.Space && (Keys)e.KeyChar != Keys.Back )//oke
+            if (!Char.IsLetterOrDigit(e.KeyChar) && e.KeyChar != (Char)Keys.Space && (Keys)e.KeyChar != Keys.Back)//oke
                 e.Handled = true;
         }
 
         private void txtThanhPho_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!Char.IsLetterOrDigit(e.KeyChar) && e.KeyChar != (Char)Keys.Space && (Keys)e.KeyChar != Keys.Back ) //oke
+            if (!Char.IsLetterOrDigit(e.KeyChar) && e.KeyChar != (Char)Keys.Space && (Keys)e.KeyChar != Keys.Back) //oke
                 e.Handled = true;
         }
 
@@ -137,15 +119,7 @@ namespace QuanLyThuVien
         {
             if (!Char.IsLetter(e.KeyChar) && (Keys)e.KeyChar != Keys.Back)
                 e.Handled = true;
-        }
-        private void btThoatDangKy_Click(object sender, EventArgs e)
-        {
-
-            DialogResult dg = MessageBox.Show("Bạn có muốn thoát ?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (dg == DialogResult.Yes)
-                Application.Exit();
-        }
-
+        }      
         private void txtEmail_Validating(object sender, CancelEventArgs e)
         {
             System.Text.RegularExpressions.Regex rEmail = new System.Text
@@ -171,9 +145,32 @@ namespace QuanLyThuVien
                     MessageBox.Show("Vui lòng nhập mật khẩu có chữ hoa, chữ thường, số. Tối thiểu 8 ký tự, tối đa 10 ký tự !!!", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txtMatKhau.SelectAll();
                     e.Cancel = true;
+                }                
+            }
+        }
+
+        private void txtSDT_Validating(object sender, CancelEventArgs e)
+        {
+            System.Text.RegularExpressions.Regex SDT = new System.Text
+             .RegularExpressions.Regex(@"^\d{9,11}$");
+            if (txtSDT.Text.Length > 0)
+            {
+                if (!SDT.IsMatch(txtMatKhau.Text))
+                {
+                    MessageBox.Show("Vui lòng nhập số điện thoại có 9-11 chữ số !!!", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    txtSDT.SelectAll();
+                    e.Cancel = true;
                 }
             }
         }
+        private void btThoatDangKy_Click(object sender, EventArgs e)
+        {
+
+            DialogResult dg = MessageBox.Show("Bạn có muốn thoát ?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dg == DialogResult.Yes)
+                Application.Exit();
+        }
     }
 }
+
 

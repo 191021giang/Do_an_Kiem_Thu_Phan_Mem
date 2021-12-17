@@ -7,13 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
-using System.Configuration;
+using DTO;
+using BUS;
 
 namespace QuanLyThuVien
 {
     public partial class DNAdmin : Form
     {
+
+        DTO_Admin dto_admin = new DTO_Admin();
+        BUS_Admin bus_admin = new BUS_Admin();
         public DNAdmin()
         {
             InitializeComponent();
@@ -21,47 +24,25 @@ namespace QuanLyThuVien
 
         private void btDangNhapAdmin_Click(object sender, EventArgs e)
         {
-            SqlConnection cnn = new SqlConnection();
-            cnn.ConnectionString = ConfigurationSettings.AppSettings["mssql_cnstr"];
+            dto_admin.admin_user = txtTaiKhoanAdmin.Text;
+            dto_admin.admin_password = txtMatKhauAdmin.Text;
+            string us = bus_admin.CheckAdmin(dto_admin);
+            switch (us)
+            {
+                case "Khongtaikhoan":
+                    MessageBox.Show("Tài khoản không được để trống");
+                    return;
 
-            try
-            {
-                cnn.Open();
-                SqlCommand cmd = new SqlCommand();
-                cmd.Connection = cnn;
-                cmd.CommandText = "DNAdmin";
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@Taikhoan", txtTaiKhoanAdmin.Text);
-                cmd.Parameters.AddWithValue("@Matkhau", txtMatKhauAdmin.Text);
-                object kq = cmd.ExecuteScalar();
-                int code = Convert.ToInt32(kq);
-                if (code == 1)
-                {
-                    MessageBox.Show("Chào mừng Admin đăng nhập", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else if (code == 2)
-                {
-                    MessageBox.Show("Tài khoản hoặc mật khẩu không đúng !!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    txtTaiKhoanAdmin.Text = "";
-                    txtMatKhauAdmin.Text = "";
-                    txtTaiKhoanAdmin.Focus();
-                }
-                else
-                {
-                    MessageBox.Show("Tài khoản không tồn tại!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    txtTaiKhoanAdmin.Text = "";
-                    txtMatKhauAdmin.Text = "";
-                    txtTaiKhoanAdmin.Focus();
-                }
-                cnn.Close();
+                case "Khongmatkhau":
+                    MessageBox.Show("Mật khẩu không được để trống");
+                    return;
+
+                case "Tài khoản hoặc mật khẩu không chính xác!":
+                    MessageBox.Show("Tài khoản hoặc mật khẩu không chính xác!");
+                    return;
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+            MessageBox.Show("Chào mừng Admin đăng nhập", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
-
-
 
         private void btThoatDangNhapAdmin_Click(object sender, EventArgs e)
         {
@@ -109,6 +90,11 @@ namespace QuanLyThuVien
         {
             if (!Char.IsLetter(e.KeyChar) && (Keys)e.KeyChar != Keys.Back)
                 e.Handled = true;
+        }
+
+        private void DNAdmin_Load(object sender, EventArgs e)
+        {
+
         }
     }   
 }

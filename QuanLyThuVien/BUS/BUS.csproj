@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BUS_Admin.cs" />
     <Compile Include="BUS_Books.cs" />
     <Compile Include="BUS_Users.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

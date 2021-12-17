@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DTO_Admin.cs" />
     <Compile Include="DTO_Books.cs" />
     <Compile Include="DTO_Categories.cs" />
     <Compile Include="DTO_StudentID.cs" />
