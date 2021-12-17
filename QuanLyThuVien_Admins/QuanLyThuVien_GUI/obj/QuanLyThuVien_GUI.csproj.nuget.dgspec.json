@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_GUI\\QuanLyThuVien_GUI.csproj": {}
+    "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_GUI\\QuanLyThuVien_GUI.csproj": {}
   },
   "projects": {
-    "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_BUS\\QuanLyThuVien_BUS.csproj": {
+    "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_BUS\\QuanLyThuVien_BUS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_BUS\\QuanLyThuVien_BUS.csproj",
+        "projectUniqueName": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_BUS\\QuanLyThuVien_BUS.csproj",
         "projectName": "QuanLyThuVien_BUS",
-        "projectPath": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_BUS\\QuanLyThuVien_BUS.csproj",
+        "projectPath": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_BUS\\QuanLyThuVien_BUS.csproj",
         "packagesPath": "C:\\Users\\Kieu\\.nuget\\packages\\",
-        "outputPath": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_BUS\\obj\\",
+        "outputPath": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_BUS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_DAL\\QuanLyThuVien_DAL.csproj": {
-                "projectPath": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_DAL\\QuanLyThuVien_DAL.csproj"
+              "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_DAL\\QuanLyThuVien_DAL.csproj": {
+                "projectPath": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_DAL\\QuanLyThuVien_DAL.csproj"
               },
-              "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\QuanLyThuVien_DTO.csproj": {
-                "projectPath": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\QuanLyThuVien_DTO.csproj"
+              "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\QuanLyThuVien_DTO.csproj": {
+                "projectPath": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\QuanLyThuVien_DTO.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_DAL\\QuanLyThuVien_DAL.csproj": {
+    "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_DAL\\QuanLyThuVien_DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_DAL\\QuanLyThuVien_DAL.csproj",
+        "projectUniqueName": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_DAL\\QuanLyThuVien_DAL.csproj",
         "projectName": "QuanLyThuVien_DAL",
-        "projectPath": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_DAL\\QuanLyThuVien_DAL.csproj",
+        "projectPath": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_DAL\\QuanLyThuVien_DAL.csproj",
         "packagesPath": "C:\\Users\\Kieu\\.nuget\\packages\\",
-        "outputPath": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_DAL\\obj\\",
+        "outputPath": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +97,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\QuanLyThuVien_DTO.csproj": {
-                "projectPath": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\QuanLyThuVien_DTO.csproj"
+              "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\QuanLyThuVien_DTO.csproj": {
+                "projectPath": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\QuanLyThuVien_DTO.csproj"
               }
             }
           }
@@ -137,14 +137,14 @@
         }
       }
     },
-    "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\QuanLyThuVien_DTO.csproj": {
+    "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\QuanLyThuVien_DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\QuanLyThuVien_DTO.csproj",
+        "projectUniqueName": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\QuanLyThuVien_DTO.csproj",
         "projectName": "QuanLyThuVien_DTO",
-        "projectPath": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\QuanLyThuVien_DTO.csproj",
+        "projectPath": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\QuanLyThuVien_DTO.csproj",
         "packagesPath": "C:\\Users\\Kieu\\.nuget\\packages\\",
-        "outputPath": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\obj\\",
+        "outputPath": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -195,14 +195,14 @@
         }
       }
     },
-    "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_GUI\\QuanLyThuVien_GUI.csproj": {
+    "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_GUI\\QuanLyThuVien_GUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_GUI\\QuanLyThuVien_GUI.csproj",
+        "projectUniqueName": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_GUI\\QuanLyThuVien_GUI.csproj",
         "projectName": "QuanLyThuVien_GUI",
-        "projectPath": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_GUI\\QuanLyThuVien_GUI.csproj",
+        "projectPath": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_GUI\\QuanLyThuVien_GUI.csproj",
         "packagesPath": "C:\\Users\\Kieu\\.nuget\\packages\\",
-        "outputPath": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_GUI\\obj\\",
+        "outputPath": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_GUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -223,8 +223,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_BUS\\QuanLyThuVien_BUS.csproj": {
-                "projectPath": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_BUS\\QuanLyThuVien_BUS.csproj"
+              "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_BUS\\QuanLyThuVien_BUS.csproj": {
+                "projectPath": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_BUS\\QuanLyThuVien_BUS.csproj"
               }
             }
           }

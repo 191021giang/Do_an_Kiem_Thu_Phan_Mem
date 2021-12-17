@@ -17,7 +17,7 @@ namespace QuanLyThuVien_GUI
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new f_MuonTraSach());
+            Application.Run(new f_HomePage());
         }
     }
 }

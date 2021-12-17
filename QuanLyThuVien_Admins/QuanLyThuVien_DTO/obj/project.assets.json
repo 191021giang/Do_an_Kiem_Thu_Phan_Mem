@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\QuanLyThuVien_DTO.csproj",
+      "projectUniqueName": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\QuanLyThuVien_DTO.csproj",
       "projectName": "QuanLyThuVien_DTO",
-      "projectPath": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\QuanLyThuVien_DTO.csproj",
+      "projectPath": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\QuanLyThuVien_DTO.csproj",
       "packagesPath": "C:\\Users\\Kieu\\.nuget\\packages\\",
-      "outputPath": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\obj\\",
+      "outputPath": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_DTO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

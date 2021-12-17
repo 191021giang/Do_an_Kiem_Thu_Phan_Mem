@@ -513,11 +513,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_GUI\\QuanLyThuVien_GUI.csproj",
+      "projectUniqueName": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_GUI\\QuanLyThuVien_GUI.csproj",
       "projectName": "QuanLyThuVien_GUI",
-      "projectPath": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_GUI\\QuanLyThuVien_GUI.csproj",
+      "projectPath": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_GUI\\QuanLyThuVien_GUI.csproj",
       "packagesPath": "C:\\Users\\Kieu\\.nuget\\packages\\",
-      "outputPath": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_GUI\\obj\\",
+      "outputPath": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_GUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -538,8 +538,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_BUS\\QuanLyThuVien_BUS.csproj": {
-              "projectPath": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_BUS\\QuanLyThuVien_BUS.csproj"
+            "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_BUS\\QuanLyThuVien_BUS.csproj": {
+              "projectPath": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_BUS\\QuanLyThuVien_BUS.csproj"
             }
           }
         }

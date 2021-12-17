@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dWU00ZC2Xr3A9sjIrAYPW6qx23NQBlbbm+n0bgEmHDhGIdwE19A/6CpmsL8UmJFNhetlgk2YWEJOPhZTVXTeGQ==",
+  "dgSpecHash": "PcWtvRSwAsG10RX7HmaVjQRstIpUcJExOC35mKZ9Hwa5+Ov6JAnOvzujjVbeIRHDbo5Lnw/+OOS89FCjLuKOcg==",
   "success": true,
-  "projectFilePath": "D:\\QuanLyThuVien_Admins\\QuanLyThuVien_Admins\\QuanLyThuVien_GUI\\QuanLyThuVien_GUI.csproj",
+  "projectFilePath": "D:\\Do_an_Kiem_Thu_Phan_Mem\\QuanLyThuVien_Admins\\QuanLyThuVien_GUI\\QuanLyThuVien_GUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kieu\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Kieu\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
