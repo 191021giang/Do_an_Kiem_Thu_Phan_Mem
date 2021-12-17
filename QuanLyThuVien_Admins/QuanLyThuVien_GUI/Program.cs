@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using QuanLyThuVien;
 
 namespace QuanLyThuVien_GUI
 {
@@ -17,7 +18,7 @@ namespace QuanLyThuVien_GUI
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new f_HomePage());
+            Application.Run(new f_DNAdmin());
         }
     }
 }

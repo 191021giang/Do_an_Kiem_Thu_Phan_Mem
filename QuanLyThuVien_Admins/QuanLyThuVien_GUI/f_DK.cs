@@ -32,26 +32,7 @@ namespace QuanLyThuVien
             }
             return true;
         }
-        //static public bool MK ( string mk)
-        //{
-        //    if(mk.Length <11 && mk.Length >7)
-        //    {
-        //        return false;
-        //    }
-        //    for (int a = 0 , a < mk.Length; a++)
-        //    {
-        //        if((mk[a] >= 'A'))
-        //    }    
-        //}
-        //public bool Checkemail(string em)
-        //{
-        //    bool kq = false;
-        //    if (Regex.IsMatch(em, "^[0-9a-zA-Z._-]+@[a-zA-Z]+.[a-zA-Z].[a-zA-Z]+$"))
-        //    {
-        //        kq = true;
-        //    }
-        //    return kq;
-        //}
+        
         public bool KTMatKhau()
         {
             bool kq = false;

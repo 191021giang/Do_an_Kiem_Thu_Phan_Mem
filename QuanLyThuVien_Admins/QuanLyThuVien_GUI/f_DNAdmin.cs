@@ -21,6 +21,7 @@ namespace QuanLyThuVien
 
         private void btDangNhapAdmin_Click(object sender, EventArgs e)
         {
+            
             SqlConnection cnn = new SqlConnection();
             cnn.ConnectionString = ConfigurationSettings.AppSettings["mssql_cnstr"];
 
