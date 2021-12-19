@@ -40,3 +40,24 @@ E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\o
 E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CopyComplete
 E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
 E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\BUS.dll
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\DTO.dll
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\DAL.dll
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\BUS.pdb
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\DTO.pdb
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\DAL.pdb
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.Books.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.DK.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.DN.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.DNAdmin.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.DNUsers.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CopyComplete
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb

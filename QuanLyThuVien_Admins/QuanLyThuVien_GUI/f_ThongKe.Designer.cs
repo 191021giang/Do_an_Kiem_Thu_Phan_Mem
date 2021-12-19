@@ -55,6 +55,8 @@ namespace QuanLyThuVien_GUI
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label5 = new System.Windows.Forms.Label();
             this.dtpDate = new System.Windows.Forms.DateTimePicker();
+            this.btnThoat = new System.Windows.Forms.Button();
+            this.btnThoat_tab1 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabQuantity.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -81,6 +83,7 @@ namespace QuanLyThuVien_GUI
             // tabQuantity
             // 
             this.tabQuantity.BackColor = System.Drawing.Color.Linen;
+            this.tabQuantity.Controls.Add(this.btnThoat_tab1);
             this.tabQuantity.Controls.Add(this.groupBox2);
             this.tabQuantity.Controls.Add(this.groupBox1);
             this.tabQuantity.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -94,9 +97,9 @@ namespace QuanLyThuVien_GUI
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.gridBook);
-            this.groupBox2.Location = new System.Drawing.Point(8, 178);
+            this.groupBox2.Location = new System.Drawing.Point(8, 202);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1205, 488);
+            this.groupBox2.Size = new System.Drawing.Size(1205, 464);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh sách số lượng sách";
@@ -109,7 +112,7 @@ namespace QuanLyThuVien_GUI
             this.gridBook.Name = "gridBook";
             this.gridBook.RowHeadersWidth = 51;
             this.gridBook.RowTemplate.Height = 29;
-            this.gridBook.Size = new System.Drawing.Size(1165, 439);
+            this.gridBook.Size = new System.Drawing.Size(1165, 409);
             this.gridBook.TabIndex = 0;
             // 
             // groupBox1
@@ -164,6 +167,7 @@ namespace QuanLyThuVien_GUI
             // tabBorrow
             // 
             this.tabBorrow.BackColor = System.Drawing.Color.Linen;
+            this.tabBorrow.Controls.Add(this.btnThoat);
             this.tabBorrow.Controls.Add(this.lbEnd);
             this.tabBorrow.Controls.Add(this.lbStart);
             this.tabBorrow.Controls.Add(this.label6);
@@ -182,7 +186,7 @@ namespace QuanLyThuVien_GUI
             // lbEnd
             // 
             this.lbEnd.BackColor = System.Drawing.Color.White;
-            this.lbEnd.Location = new System.Drawing.Point(940, 226);
+            this.lbEnd.Location = new System.Drawing.Point(851, 222);
             this.lbEnd.Name = "lbEnd";
             this.lbEnd.Size = new System.Drawing.Size(182, 37);
             this.lbEnd.TabIndex = 5;
@@ -191,7 +195,7 @@ namespace QuanLyThuVien_GUI
             // lbStart
             // 
             this.lbStart.BackColor = System.Drawing.Color.White;
-            this.lbStart.Location = new System.Drawing.Point(940, 163);
+            this.lbStart.Location = new System.Drawing.Point(851, 159);
             this.lbStart.Name = "lbStart";
             this.lbStart.Size = new System.Drawing.Size(182, 37);
             this.lbStart.TabIndex = 5;
@@ -200,7 +204,7 @@ namespace QuanLyThuVien_GUI
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(775, 234);
+            this.label6.Location = new System.Drawing.Point(686, 230);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(137, 25);
             this.label6.TabIndex = 4;
@@ -209,7 +213,7 @@ namespace QuanLyThuVien_GUI
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(775, 170);
+            this.label4.Location = new System.Drawing.Point(686, 166);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(132, 25);
             this.label4.TabIndex = 4;
@@ -301,7 +305,7 @@ namespace QuanLyThuVien_GUI
             // 
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Controls.Add(this.dtpDate);
-            this.groupBox3.Location = new System.Drawing.Point(725, 18);
+            this.groupBox3.Location = new System.Drawing.Point(686, 18);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(448, 125);
             this.groupBox3.TabIndex = 1;
@@ -326,6 +330,28 @@ namespace QuanLyThuVien_GUI
             this.dtpDate.TabIndex = 1;
             this.dtpDate.ValueChanged += new System.EventHandler(this.dtpDate_ValueChanged);
             this.dtpDate.MouseCaptureChanged += new System.EventHandler(this.dtpDate_MouseCaptureChanged);
+            // 
+            // btnThoat
+            // 
+            this.btnThoat.BackColor = System.Drawing.Color.Moccasin;
+            this.btnThoat.Location = new System.Drawing.Point(1069, 259);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(125, 51);
+            this.btnThoat.TabIndex = 6;
+            this.btnThoat.Text = "Thoát";
+            this.btnThoat.UseVisualStyleBackColor = false;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_tab1_Click);
+            // 
+            // btnThoat_tab1
+            // 
+            this.btnThoat_tab1.BackColor = System.Drawing.Color.Moccasin;
+            this.btnThoat_tab1.Location = new System.Drawing.Point(1051, 141);
+            this.btnThoat_tab1.Name = "btnThoat_tab1";
+            this.btnThoat_tab1.Size = new System.Drawing.Size(141, 55);
+            this.btnThoat_tab1.TabIndex = 2;
+            this.btnThoat_tab1.Text = "Thoát";
+            this.btnThoat_tab1.UseVisualStyleBackColor = false;
+            this.btnThoat_tab1.Click += new System.EventHandler(this.btnThoat_tab1_Click);
             // 
             // f_ThongKe
             // 
@@ -384,5 +410,7 @@ namespace QuanLyThuVien_GUI
         private System.Windows.Forms.DateTimePicker dtpStart;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.Button btnThoat_tab1;
     }
 }

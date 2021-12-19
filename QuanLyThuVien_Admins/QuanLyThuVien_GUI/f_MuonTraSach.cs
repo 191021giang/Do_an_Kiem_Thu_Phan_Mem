@@ -538,6 +538,13 @@ namespace QuanLyThuVien_GUI
             return format_date;
         }
 
+        private void btnThoat_tabMuon_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            f_HomePage home = new f_HomePage();
+            home.ShowDialog();
+        }
+
         /*==========================================================================
          * ====================KẾT THÚC CÁC HÀM DÙNG TRONG FORM====================
          ===========================================================================*/

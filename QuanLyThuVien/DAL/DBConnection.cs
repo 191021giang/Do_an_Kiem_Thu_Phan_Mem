@@ -15,7 +15,8 @@ namespace DAL
         {
             try
             {
-                string cntr = " Server = DESKTOP-47KF5PU\\SQLEXPRESS; Database = Library_System; Integrated Security =True;";
+                // DESKTOP-47KF5PU\\SQLEXPRESS
+                string cntr = " Server = LAPTOP-RL3S5CVA; Database = Library_System; Integrated Security =True;";
                 conn = new SqlConnection(cntr);
                 return conn;
             }

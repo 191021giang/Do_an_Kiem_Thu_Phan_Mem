@@ -107,6 +107,13 @@ namespace QuanLyThuVien_GUI
             dtpStart.Value = dtpEnd.Value = DateTime.Today;
         }
 
+        private void btnThoat_tab1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            f_HomePage home = new f_HomePage();
+            home.ShowDialog();
+        }
+
         private string convert_date(int yyyy, int mm, int dd)
         {
             string format_date;

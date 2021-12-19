@@ -20,3 +20,14 @@ E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\B
 E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\obj\Debug\BUS.csproj.CopyComplete
 E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\obj\Debug\BUS.dll
 E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\obj\Debug\BUS.pdb
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\bin\Debug\BUS.dll
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\bin\Debug\BUS.pdb
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\bin\Debug\DAL.dll
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\bin\Debug\DTO.dll
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\bin\Debug\DAL.pdb
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\bin\Debug\DTO.pdb
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\obj\Debug\BUS.dll
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\obj\Debug\BUS.pdb

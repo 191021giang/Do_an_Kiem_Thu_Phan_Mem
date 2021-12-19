@@ -99,6 +99,8 @@ namespace QuanLyThuVien_GUI
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.btnThoat_tabMuon = new System.Windows.Forms.Button();
+            this.btnThoat_tabTra = new System.Windows.Forms.Button();
             this.tabControl_MuonTra.SuspendLayout();
             this.tabMuonSach.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -123,12 +125,13 @@ namespace QuanLyThuVien_GUI
             this.tabControl_MuonTra.Location = new System.Drawing.Point(0, 0);
             this.tabControl_MuonTra.Name = "tabControl_MuonTra";
             this.tabControl_MuonTra.SelectedIndex = 0;
-            this.tabControl_MuonTra.Size = new System.Drawing.Size(1309, 706);
+            this.tabControl_MuonTra.Size = new System.Drawing.Size(1309, 746);
             this.tabControl_MuonTra.TabIndex = 0;
             // 
             // tabMuonSach
             // 
             this.tabMuonSach.BackColor = System.Drawing.Color.Linen;
+            this.tabMuonSach.Controls.Add(this.btnThoat_tabMuon);
             this.tabMuonSach.Controls.Add(this.label9);
             this.tabMuonSach.Controls.Add(this.txtSearch_tabMuon);
             this.tabMuonSach.Controls.Add(this.groupBox4);
@@ -144,18 +147,17 @@ namespace QuanLyThuVien_GUI
             this.tabMuonSach.Location = new System.Drawing.Point(4, 29);
             this.tabMuonSach.Name = "tabMuonSach";
             this.tabMuonSach.Padding = new System.Windows.Forms.Padding(3);
-            this.tabMuonSach.Size = new System.Drawing.Size(1301, 673);
+            this.tabMuonSach.Size = new System.Drawing.Size(1301, 713);
             this.tabMuonSach.TabIndex = 0;
             this.tabMuonSach.Text = "Quản Lý Mượn Sách";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Moccasin;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(945, 314);
+            this.label9.Location = new System.Drawing.Point(281, 315);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(339, 25);
+            this.label9.Size = new System.Drawing.Size(195, 51);
             this.label9.TabIndex = 6;
             this.label9.Text = "Tìm kiếm Danh Sách Mượn theo MSSV";
             // 
@@ -163,7 +165,7 @@ namespace QuanLyThuVien_GUI
             // 
             this.txtSearch_tabMuon.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSearch_tabMuon.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.txtSearch_tabMuon.Location = new System.Drawing.Point(482, 309);
+            this.txtSearch_tabMuon.Location = new System.Drawing.Point(482, 324);
             this.txtSearch_tabMuon.Multiline = true;
             this.txtSearch_tabMuon.Name = "txtSearch_tabMuon";
             this.txtSearch_tabMuon.Size = new System.Drawing.Size(459, 35);
@@ -176,9 +178,9 @@ namespace QuanLyThuVien_GUI
             // 
             this.groupBox4.Controls.Add(this.gridListBorrow);
             this.groupBox4.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.groupBox4.Location = new System.Drawing.Point(17, 351);
+            this.groupBox4.Location = new System.Drawing.Point(17, 366);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(1264, 314);
+            this.groupBox4.Size = new System.Drawing.Size(1264, 339);
             this.groupBox4.TabIndex = 4;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Danh Sách Mượn";
@@ -191,7 +193,7 @@ namespace QuanLyThuVien_GUI
             this.gridListBorrow.Name = "gridListBorrow";
             this.gridListBorrow.RowHeadersWidth = 51;
             this.gridListBorrow.RowTemplate.Height = 29;
-            this.gridListBorrow.Size = new System.Drawing.Size(1241, 278);
+            this.gridListBorrow.Size = new System.Drawing.Size(1241, 303);
             this.gridListBorrow.TabIndex = 0;
             // 
             // btnDelAllListBorrow
@@ -543,6 +545,7 @@ namespace QuanLyThuVien_GUI
             // tabTraSach
             // 
             this.tabTraSach.BackColor = System.Drawing.Color.Linen;
+            this.tabTraSach.Controls.Add(this.btnThoat_tabTra);
             this.tabTraSach.Controls.Add(this.btnConfirm_tabTra);
             this.tabTraSach.Controls.Add(this.groupBox8);
             this.tabTraSach.Controls.Add(this.groupBox7);
@@ -553,7 +556,7 @@ namespace QuanLyThuVien_GUI
             this.tabTraSach.Location = new System.Drawing.Point(4, 29);
             this.tabTraSach.Name = "tabTraSach";
             this.tabTraSach.Padding = new System.Windows.Forms.Padding(3);
-            this.tabTraSach.Size = new System.Drawing.Size(1301, 673);
+            this.tabTraSach.Size = new System.Drawing.Size(1301, 713);
             this.tabTraSach.TabIndex = 1;
             this.tabTraSach.Text = "Quản Lý Trả Sách";
             // 
@@ -869,12 +872,36 @@ namespace QuanLyThuVien_GUI
             this.label17.TabIndex = 0;
             this.label17.Text = "Mã độc giả:";
             // 
+            // btnThoat_tabMuon
+            // 
+            this.btnThoat_tabMuon.BackColor = System.Drawing.Color.Moccasin;
+            this.btnThoat_tabMuon.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnThoat_tabMuon.Location = new System.Drawing.Point(1063, 308);
+            this.btnThoat_tabMuon.Name = "btnThoat_tabMuon";
+            this.btnThoat_tabMuon.Size = new System.Drawing.Size(218, 55);
+            this.btnThoat_tabMuon.TabIndex = 7;
+            this.btnThoat_tabMuon.Text = "Thoát";
+            this.btnThoat_tabMuon.UseVisualStyleBackColor = false;
+            this.btnThoat_tabMuon.Click += new System.EventHandler(this.btnThoat_tabMuon_Click);
+            // 
+            // btnThoat_tabTra
+            // 
+            this.btnThoat_tabTra.BackColor = System.Drawing.Color.Moccasin;
+            this.btnThoat_tabTra.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnThoat_tabTra.Location = new System.Drawing.Point(931, 316);
+            this.btnThoat_tabTra.Name = "btnThoat_tabTra";
+            this.btnThoat_tabTra.Size = new System.Drawing.Size(166, 46);
+            this.btnThoat_tabTra.TabIndex = 7;
+            this.btnThoat_tabTra.Text = "Thoát";
+            this.btnThoat_tabTra.UseVisualStyleBackColor = false;
+            this.btnThoat_tabTra.Click += new System.EventHandler(this.btnThoat_tabMuon_Click);
+            // 
             // f_MuonTraSach
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1309, 706);
+            this.ClientSize = new System.Drawing.Size(1309, 746);
             this.Controls.Add(this.tabControl_MuonTra);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "f_MuonTraSach";
@@ -977,5 +1004,7 @@ namespace QuanLyThuVien_GUI
         private System.Windows.Forms.Button btnConfirm_tabTra;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Button btnThoat_tabMuon;
+        private System.Windows.Forms.Button btnThoat_tabTra;
     }
 }
