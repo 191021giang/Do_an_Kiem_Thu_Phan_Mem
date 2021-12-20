@@ -169,7 +169,9 @@ namespace QuanLyThuVien
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbDangNhap);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "DNUsers";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "USER LOGIN ";
             this.Load += new System.EventHandler(this.DNUsers_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -89,3 +89,4 @@ D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_GUI\obj\Debug\netc
 D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_GUI\obj\Debug\netcoreapp3.1\QuanLyThuVien_GUI.genruntimeconfig.cache
 D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_GUI\obj\Debug\netcoreapp3.1\QuanLyThuVien_GUI.f_HomePage.resources
 D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_GUI\obj\Debug\netcoreapp3.1\QuanLyThuVien_GUI.csproj.CopyComplete
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien_Admins\QuanLyThuVien_GUI\obj\Debug\netcoreapp3.1\QuanLyThuVien.Books.resources

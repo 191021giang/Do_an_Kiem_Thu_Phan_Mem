@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="DTO_Admin.cs" />
     <Compile Include="DTO_Books.cs" />
+    <Compile Include="DTO_BooksStore.cs" />
+    <Compile Include="DTO_Borrowers.cs" />
     <Compile Include="DTO_Categories.cs" />
     <Compile Include="DTO_StudentID.cs" />
     <Compile Include="DTO_Users.cs" />

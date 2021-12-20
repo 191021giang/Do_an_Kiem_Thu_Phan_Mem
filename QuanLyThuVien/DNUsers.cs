@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using DTO;
 using BUS;
@@ -53,6 +46,10 @@ namespace QuanLyThuVien
                     return;
             }
             MessageBox.Show("Chào mừng User đăng nhập", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            
+            this.Hide();
+            f_Homepage_User homeUser = new f_Homepage_User(dto_user);
+            homeUser.ShowDialog();
         }
        
         private void txtTaiKhoanUser_MouseClick(object sender, MouseEventArgs e)

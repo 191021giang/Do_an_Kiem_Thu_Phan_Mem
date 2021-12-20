@@ -61,3 +61,9 @@ D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreComp
 D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CopyComplete
 D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
 D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien_GUI.f_HomePage.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien_GUI.f_MuonTraSach.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien_GUI.f_ThongKe.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.f_Homepage_User.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.f_XemMuonTra.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.f_XemSach.resources

@@ -1,14 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using DTO;
 using BUS;
+using QuanLyThuVien_GUI;
 
 namespace QuanLyThuVien
 {
@@ -160,7 +154,11 @@ namespace QuanLyThuVien
         {
             DialogResult dg = MessageBox.Show("Bạn có muốn thoát ?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (dg == DialogResult.Yes)
-                Application.Exit();
+            {
+                this.Hide();
+                f_HomePage home = new f_HomePage();
+                home.ShowDialog();
+            }
         }
 
         private void txtCategory_id_KeyPress(object sender, KeyPressEventArgs e)

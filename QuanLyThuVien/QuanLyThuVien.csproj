@@ -76,6 +76,42 @@
     <Compile Include="DNUsers.Designer.cs">
       <DependentUpon>DNUsers.cs</DependentUpon>
     </Compile>
+    <Compile Include="f_HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_HomePage.designer.cs">
+      <DependentUpon>f_HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_Homepage_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_Homepage_User.Designer.cs">
+      <DependentUpon>f_Homepage_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_MuonTraSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_MuonTraSach.designer.cs">
+      <DependentUpon>f_MuonTraSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_ThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_ThongKe.designer.cs">
+      <DependentUpon>f_ThongKe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_XemMuonTra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_XemMuonTra.Designer.cs">
+      <DependentUpon>f_XemMuonTra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_XemSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_XemSach.Designer.cs">
+      <DependentUpon>f_XemSach.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Books.resx">
@@ -92,6 +128,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DNUsers.resx">
       <DependentUpon>DNUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_HomePage.resx">
+      <DependentUpon>f_HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_Homepage_User.resx">
+      <DependentUpon>f_Homepage_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_MuonTraSach.resx">
+      <DependentUpon>f_MuonTraSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_ThongKe.resx">
+      <DependentUpon>f_ThongKe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_XemMuonTra.resx">
+      <DependentUpon>f_XemMuonTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_XemSach.resx">
+      <DependentUpon>f_XemSach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -124,6 +178,9 @@
       <Project>{39ea1a83-80ab-4816-a3cb-3c2c0faf66f5}</Project>
       <Name>DTO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bg.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

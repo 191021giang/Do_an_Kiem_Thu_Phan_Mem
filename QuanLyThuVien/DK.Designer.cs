@@ -332,7 +332,9 @@ namespace QuanLyThuVien
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lbDangKy);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "DK";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng Ký Tài Khoản";
             this.Load += new System.EventHandler(this.DK_Load);
             this.ResumeLayout(false);

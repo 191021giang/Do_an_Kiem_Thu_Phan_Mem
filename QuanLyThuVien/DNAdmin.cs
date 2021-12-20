@@ -1,14 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using DTO;
 using BUS;
+using QuanLyThuVien_GUI;
 
 namespace QuanLyThuVien
 {
@@ -42,6 +36,9 @@ namespace QuanLyThuVien
                     return;
             }
             MessageBox.Show("Chào mừng Admin đăng nhập", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Close();
+            f_HomePage home_Admin = new f_HomePage();
+            home_Admin.ShowDialog();
         }
 
         private void btThoatDangNhapAdmin_Click(object sender, EventArgs e)

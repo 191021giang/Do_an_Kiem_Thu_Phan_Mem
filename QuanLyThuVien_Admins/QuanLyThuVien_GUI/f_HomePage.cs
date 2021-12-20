@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
+using QuanLyThuVien;
 
 namespace QuanLyThuVien_GUI
 {
@@ -24,6 +20,9 @@ namespace QuanLyThuVien_GUI
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            Books f_book = new Books();
+            f_book.ShowDialog();
         }
 
         private void btnStatis_Click(object sender, EventArgs e)

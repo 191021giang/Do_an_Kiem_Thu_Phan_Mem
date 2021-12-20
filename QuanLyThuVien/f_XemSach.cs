@@ -1,0 +1,68 @@
+﻿using DTO;
+using QuanLyThuVien_BUS;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace QuanLyThuVien
+{
+    public partial class f_XemSach : Form
+    {
+        BUS_ListBooks bus_Book = new BUS_ListBooks();
+        private DTO_Users dto_user;
+        public f_XemSach(DTO_Users dto_user)
+        {
+            InitializeComponent();
+            this.dto_user = dto_user;
+        }
+
+        private void f_XemSach_Load(object sender, EventArgs e)
+        {
+            load_Book();
+        }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+            DataTable dt = bus_Book.search_book(txtSearch.Text);
+            gridBook.DataSource = dt;
+            gridBook.Columns[0].HeaderText = "Mã Sách";
+            gridBook.Columns[1].HeaderText = "Tên Sách";
+            gridBook.Columns[2].HeaderText = "Tác giả";
+            gridBook.Columns[3].HeaderText = "Mã loại sách";
+            gridBook.Columns[4].HeaderText = "Nhà xuất bản";
+            gridBook.Columns[5].HeaderText = "Số lượng nhập";
+            gridBook.Columns[6].HeaderText = "Số lượng hiện có";
+        }
+
+        private void btnAllBook_Click(object sender, EventArgs e)
+        {
+            load_Book();
+        }
+
+        public void load_Book()
+        {
+            DataTable dt = bus_Book.getBooksStore();
+            gridBook.DataSource = dt;
+            gridBook.Columns[0].HeaderText = "Mã Sách";
+            gridBook.Columns[1].HeaderText = "Tên Sách";
+            gridBook.Columns[2].HeaderText = "Tác giả";
+            gridBook.Columns[3].HeaderText = "Mã loại sách";
+            gridBook.Columns[4].HeaderText = "Nhà xuất bản";
+            gridBook.Columns[5].HeaderText = "Số lượng nhập";
+            gridBook.Columns[6].HeaderText = "Số lượng hiện có";
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            f_Homepage_User home_user = new f_Homepage_User(dto_user);
+            home_user.ShowDialog();
+        }
+    }
+}

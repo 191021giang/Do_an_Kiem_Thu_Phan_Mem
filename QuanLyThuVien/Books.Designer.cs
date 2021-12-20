@@ -277,7 +277,9 @@ namespace QuanLyThuVien
             this.Controls.Add(this.lbBookName);
             this.Controls.Add(this.grid);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Books";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Chỉnh Sửa Sách";
             this.Load += new System.EventHandler(this.Books_Load);
             ((System.ComponentModel.ISupportInitialize)(this.grid)).EndInit();

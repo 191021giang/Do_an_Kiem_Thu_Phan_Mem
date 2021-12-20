@@ -43,6 +43,10 @@
   <ItemGroup>
     <Compile Include="BUS_Admin.cs" />
     <Compile Include="BUS_Books.cs" />
+    <Compile Include="BUS_Borrowers.cs" />
+    <Compile Include="BUS_ListBooks.cs" />
+    <Compile Include="BUS_ListUsers.cs" />
+    <Compile Include="BUS_Statics.cs" />
     <Compile Include="BUS_Users.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

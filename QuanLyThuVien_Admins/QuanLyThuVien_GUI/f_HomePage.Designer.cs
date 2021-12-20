@@ -95,6 +95,7 @@ namespace QuanLyThuVien_GUI
             this.ForeColor = System.Drawing.Color.Red;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "f_HomePage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "f_HomePage";
             this.ResumeLayout(false);
 

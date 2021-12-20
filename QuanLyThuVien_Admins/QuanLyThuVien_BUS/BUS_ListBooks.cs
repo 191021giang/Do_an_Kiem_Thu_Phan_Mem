@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using QuanLyThuVien_DTO;
+﻿using QuanLyThuVien_DTO;
 using QuanLyThuVien_DAL;
 using System.Data;
 
