@@ -100,12 +100,6 @@
     <Compile Include="f_ThongKe.designer.cs">
       <DependentUpon>f_ThongKe.cs</DependentUpon>
     </Compile>
-    <Compile Include="f_XemMuonTra.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="f_XemMuonTra.Designer.cs">
-      <DependentUpon>f_XemMuonTra.cs</DependentUpon>
-    </Compile>
     <Compile Include="f_XemSach.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,9 +134,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="f_ThongKe.resx">
       <DependentUpon>f_ThongKe.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="f_XemMuonTra.resx">
-      <DependentUpon>f_XemMuonTra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="f_XemSach.resx">
       <DependentUpon>f_XemSach.cs</DependentUpon>

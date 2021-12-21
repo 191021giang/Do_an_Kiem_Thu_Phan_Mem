@@ -120,7 +120,7 @@ namespace QuanLyThuVien
             // lbDangNhap
             // 
             this.lbDangNhap.AutoSize = true;
-            this.lbDangNhap.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.lbDangNhap.BackColor = System.Drawing.Color.Linen;
             this.lbDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbDangNhap.ForeColor = System.Drawing.Color.Maroon;
             this.lbDangNhap.Location = new System.Drawing.Point(278, 70);

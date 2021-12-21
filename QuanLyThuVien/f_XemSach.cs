@@ -16,10 +16,9 @@ namespace QuanLyThuVien
     {
         BUS_ListBooks bus_Book = new BUS_ListBooks();
         private DTO_Users dto_user;
-        public f_XemSach(DTO_Users dto_user)
+        public f_XemSach()
         {
             InitializeComponent();
-            this.dto_user = dto_user;
         }
 
         private void f_XemSach_Load(object sender, EventArgs e)
@@ -38,6 +37,7 @@ namespace QuanLyThuVien
             gridBook.Columns[4].HeaderText = "Nhà xuất bản";
             gridBook.Columns[5].HeaderText = "Số lượng nhập";
             gridBook.Columns[6].HeaderText = "Số lượng hiện có";
+            gridBook.ReadOnly = true;
         }
 
         private void btnAllBook_Click(object sender, EventArgs e)
@@ -56,12 +56,13 @@ namespace QuanLyThuVien
             gridBook.Columns[4].HeaderText = "Nhà xuất bản";
             gridBook.Columns[5].HeaderText = "Số lượng nhập";
             gridBook.Columns[6].HeaderText = "Số lượng hiện có";
+            gridBook.ReadOnly = true;
         }
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
             this.Hide();
-            f_Homepage_User home_user = new f_Homepage_User(dto_user);
+            f_Homepage_User home_user = new f_Homepage_User();
             home_user.ShowDialog();
         }
     }

@@ -48,7 +48,7 @@ namespace QuanLyThuVien
             MessageBox.Show("Chào mừng User đăng nhập", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             
             this.Hide();
-            f_Homepage_User homeUser = new f_Homepage_User(dto_user);
+            f_Homepage_User homeUser = new f_Homepage_User();
             homeUser.ShowDialog();
         }
        

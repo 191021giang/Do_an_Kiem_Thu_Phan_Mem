@@ -106,7 +106,7 @@ namespace QuanLyThuVien_DAL
         {
             string query = string.Format(@"SELECT * 
                                             FROM dbo.BooksStore
-                                            WHERE book_name LIKE '%{0}%'", name);
+                                            WHERE book_name LIKE N'%{0}%'", name);
             SqlCommand cmmd = new SqlCommand(query, conn);
             try
             {

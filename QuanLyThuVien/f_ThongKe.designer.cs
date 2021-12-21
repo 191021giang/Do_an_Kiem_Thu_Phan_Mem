@@ -115,7 +115,7 @@ namespace QuanLyThuVien_GUI
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Size = new System.Drawing.Size(1205, 371);
+            this.groupBox2.Size = new System.Drawing.Size(1205, 509);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh sách số lượng sách";
@@ -127,9 +127,10 @@ namespace QuanLyThuVien_GUI
             this.gridBook.Location = new System.Drawing.Point(19, 34);
             this.gridBook.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gridBook.Name = "gridBook";
+            this.gridBook.ReadOnly = true;
             this.gridBook.RowHeadersWidth = 51;
             this.gridBook.RowTemplate.Height = 29;
-            this.gridBook.Size = new System.Drawing.Size(1165, 327);
+            this.gridBook.Size = new System.Drawing.Size(1165, 471);
             this.gridBook.TabIndex = 0;
             // 
             // groupBox1
@@ -258,7 +259,7 @@ namespace QuanLyThuVien_GUI
             this.groupBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox5.Size = new System.Drawing.Size(1174, 290);
+            this.groupBox5.Size = new System.Drawing.Size(1174, 428);
             this.groupBox5.TabIndex = 3;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Danh sách thống kê";
@@ -270,9 +271,10 @@ namespace QuanLyThuVien_GUI
             this.gridStatis.Location = new System.Drawing.Point(18, 34);
             this.gridStatis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gridStatis.Name = "gridStatis";
+            this.gridStatis.ReadOnly = true;
             this.gridStatis.RowHeadersWidth = 51;
             this.gridStatis.RowTemplate.Height = 29;
-            this.gridStatis.Size = new System.Drawing.Size(1135, 250);
+            this.gridStatis.Size = new System.Drawing.Size(1135, 390);
             this.gridStatis.TabIndex = 0;
             // 
             // groupBox4

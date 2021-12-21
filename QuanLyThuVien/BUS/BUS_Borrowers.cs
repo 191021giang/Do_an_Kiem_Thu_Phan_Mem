@@ -28,10 +28,5 @@ namespace QuanLyThuVien_BUS
         {
             return dal_borrow.update_date_of_return(dto_borrow, stt);
         }
-
-        public DataTable borrower(DTO_Users user)
-        {
-            return dal_borrow.borrower(user);
-        }
     }
 }

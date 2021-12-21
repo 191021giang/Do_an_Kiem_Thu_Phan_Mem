@@ -170,38 +170,5 @@ namespace QuanLyThuVien_DAL
             }
             return false;
         }
-
-        public DataTable borrower(DTO_Users user)
-        {
-            string query = string.Format(@"SELECT
-                                                borrower_number AS 'STT', 
-	                                            student_id AS 'Mã số người mượn', 
-	                                            book_id AS 'Mã sách mượn', 
-	                                            qtt_borrow AS 'Số lượng mượn', 
-	                                            date_of_borrow AS 'Ngày mượn', 
-	                                            date_of_appoint_return AS 'Ngày hẹn trả', 
-	                                            date_of_return AS 'Ngày thực trả', 
-	                                            note AS 'Ghi chú'
-                                            FROM dbo.Borrowers
-                                            WHERE student_id = {0}", user.users_id);
-            SqlCommand cmd = new SqlCommand(query, conn);
-            try
-            {
-                conn.Open();
-
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
-                DataTable dt = new DataTable();
-                da.Fill(dt);
-                return dt;
-            }
-            catch (Exception e)
-            {
-                throw e;
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }
     }
 }

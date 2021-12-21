@@ -198,7 +198,7 @@ namespace QuanLyThuVien_GUI
             this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox4.Size = new System.Drawing.Size(1264, 271);
+            this.groupBox4.Size = new System.Drawing.Size(1264, 417);
             this.groupBox4.TabIndex = 4;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Danh Sách Mượn";
@@ -210,9 +210,10 @@ namespace QuanLyThuVien_GUI
             this.gridListBorrow.Location = new System.Drawing.Point(6, 24);
             this.gridListBorrow.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gridListBorrow.Name = "gridListBorrow";
+            this.gridListBorrow.ReadOnly = true;
             this.gridListBorrow.RowHeadersWidth = 51;
             this.gridListBorrow.RowTemplate.Height = 29;
-            this.gridListBorrow.Size = new System.Drawing.Size(1241, 242);
+            this.gridListBorrow.Size = new System.Drawing.Size(1241, 389);
             this.gridListBorrow.TabIndex = 0;
             // 
             // btnDelAllListBorrow
@@ -590,7 +591,7 @@ namespace QuanLyThuVien_GUI
             this.tabTraSach.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabTraSach.Name = "tabTraSach";
             this.tabTraSach.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabTraSach.Size = new System.Drawing.Size(1301, 568);
+            this.tabTraSach.Size = new System.Drawing.Size(1301, 717);
             this.tabTraSach.TabIndex = 1;
             this.tabTraSach.Text = "Quản Lý Trả Sách";
             // 
@@ -747,7 +748,7 @@ namespace QuanLyThuVien_GUI
             this.groupBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox6.Size = new System.Drawing.Size(1264, 238);
+            this.groupBox6.Size = new System.Drawing.Size(1264, 416);
             this.groupBox6.TabIndex = 1;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Danh Sách Mượn - Trả";
@@ -759,9 +760,10 @@ namespace QuanLyThuVien_GUI
             this.gridListReturn_tabTra.Location = new System.Drawing.Point(12, 35);
             this.gridListReturn_tabTra.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gridListReturn_tabTra.Name = "gridListReturn_tabTra";
+            this.gridListReturn_tabTra.ReadOnly = true;
             this.gridListReturn_tabTra.RowHeadersWidth = 51;
             this.gridListReturn_tabTra.RowTemplate.Height = 29;
-            this.gridListReturn_tabTra.Size = new System.Drawing.Size(1252, 198);
+            this.gridListReturn_tabTra.Size = new System.Drawing.Size(1252, 377);
             this.gridListReturn_tabTra.TabIndex = 0;
             this.gridListReturn_tabTra.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridListReturn_tabTra_CellClick);
             // 

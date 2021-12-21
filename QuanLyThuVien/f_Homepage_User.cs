@@ -14,23 +14,20 @@ namespace QuanLyThuVien
     public partial class f_Homepage_User : Form
     {
         public DTO_Users dto_user;
-        public f_Homepage_User(DTO_Users dto_user)
+        public f_Homepage_User()
         {
             InitializeComponent();
-            this.dto_user = dto_user;
         }
 
         private void btnBorrow_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            f_XemMuonTra muonTra = new f_XemMuonTra(dto_user);
-            muonTra.ShowDialog();
+            MessageBox.Show("Tính năng chưa được cập nhật!\nVui lòng quay lại sau!");
         }
 
         private void btnBook_Click(object sender, EventArgs e)
         {
             this.Hide();
-            f_XemSach xemSach = new f_XemSach(dto_user);
+            f_XemSach xemSach = new f_XemSach();
             xemSach.ShowDialog();
         }
 

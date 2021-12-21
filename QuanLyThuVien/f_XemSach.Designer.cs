@@ -120,6 +120,7 @@ namespace QuanLyThuVien
             this.Controls.Add(this.gridBook);
             this.Controls.Add(this.label1);
             this.Name = "f_XemSach";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thông Tin Sách";
             this.Load += new System.EventHandler(this.f_XemSach_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridBook)).EndInit();
