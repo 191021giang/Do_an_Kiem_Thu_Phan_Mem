@@ -78,7 +78,7 @@ namespace QuanLyThuVien_GUI
             this.tabControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1229, 707);
+            this.tabControl1.Size = new System.Drawing.Size(1203, 681);
             this.tabControl1.TabIndex = 0;
             // 
             // tabQuantity
@@ -88,21 +88,21 @@ namespace QuanLyThuVien_GUI
             this.tabQuantity.Controls.Add(this.groupBox2);
             this.tabQuantity.Controls.Add(this.groupBox1);
             this.tabQuantity.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Bold);
-            this.tabQuantity.Location = new System.Drawing.Point(4, 25);
+            this.tabQuantity.Location = new System.Drawing.Point(4, 27);
             this.tabQuantity.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabQuantity.Name = "tabQuantity";
             this.tabQuantity.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabQuantity.Size = new System.Drawing.Size(1221, 678);
+            this.tabQuantity.Size = new System.Drawing.Size(1195, 650);
             this.tabQuantity.TabIndex = 0;
             this.tabQuantity.Text = "Thống kê số lượng sách";
             // 
             // btnThoat_tab1
             // 
             this.btnThoat_tab1.BackColor = System.Drawing.Color.Moccasin;
-            this.btnThoat_tab1.Location = new System.Drawing.Point(1051, 113);
+            this.btnThoat_tab1.Location = new System.Drawing.Point(980, 119);
             this.btnThoat_tab1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThoat_tab1.Name = "btnThoat_tab1";
-            this.btnThoat_tab1.Size = new System.Drawing.Size(141, 44);
+            this.btnThoat_tab1.Size = new System.Drawing.Size(159, 50);
             this.btnThoat_tab1.TabIndex = 2;
             this.btnThoat_tab1.Text = "Thoát";
             this.btnThoat_tab1.UseVisualStyleBackColor = false;
@@ -111,11 +111,11 @@ namespace QuanLyThuVien_GUI
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.gridBook);
-            this.groupBox2.Location = new System.Drawing.Point(8, 162);
+            this.groupBox2.Location = new System.Drawing.Point(36, 173);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Size = new System.Drawing.Size(1205, 509);
+            this.groupBox2.Size = new System.Drawing.Size(1102, 472);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh sách số lượng sách";
@@ -124,13 +124,13 @@ namespace QuanLyThuVien_GUI
             // 
             this.gridBook.BackgroundColor = System.Drawing.Color.White;
             this.gridBook.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridBook.Location = new System.Drawing.Point(19, 34);
+            this.gridBook.Location = new System.Drawing.Point(29, 39);
             this.gridBook.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gridBook.Name = "gridBook";
             this.gridBook.ReadOnly = true;
             this.gridBook.RowHeadersWidth = 51;
             this.gridBook.RowTemplate.Height = 29;
-            this.gridBook.Size = new System.Drawing.Size(1165, 471);
+            this.gridBook.Size = new System.Drawing.Size(1053, 421);
             this.gridBook.TabIndex = 0;
             // 
             // groupBox1
@@ -139,11 +139,11 @@ namespace QuanLyThuVien_GUI
             this.groupBox1.Controls.Add(this.lbSumBook);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(8, 18);
+            this.groupBox1.Location = new System.Drawing.Point(36, 13);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(1205, 90);
+            this.groupBox1.Size = new System.Drawing.Size(1102, 102);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thống kê số lượng sách";
@@ -151,25 +151,25 @@ namespace QuanLyThuVien_GUI
             // lbBook
             // 
             this.lbBook.BackColor = System.Drawing.Color.White;
-            this.lbBook.Location = new System.Drawing.Point(851, 35);
+            this.lbBook.Location = new System.Drawing.Point(778, 35);
             this.lbBook.Name = "lbBook";
-            this.lbBook.Size = new System.Drawing.Size(120, 32);
+            this.lbBook.Size = new System.Drawing.Size(135, 36);
             this.lbBook.TabIndex = 1;
             this.lbBook.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbSumBook
             // 
             this.lbSumBook.BackColor = System.Drawing.Color.White;
-            this.lbSumBook.Location = new System.Drawing.Point(421, 35);
+            this.lbSumBook.Location = new System.Drawing.Point(322, 35);
             this.lbSumBook.Name = "lbSumBook";
-            this.lbSumBook.Size = new System.Drawing.Size(120, 32);
+            this.lbSumBook.Size = new System.Drawing.Size(135, 36);
             this.lbSumBook.TabIndex = 1;
             this.lbSumBook.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(632, 42);
+            this.label2.Location = new System.Drawing.Point(532, 45);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(195, 25);
             this.label2.TabIndex = 0;
@@ -178,7 +178,7 @@ namespace QuanLyThuVien_GUI
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(203, 42);
+            this.label1.Location = new System.Drawing.Point(76, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(212, 25);
             this.label1.TabIndex = 0;
@@ -196,21 +196,21 @@ namespace QuanLyThuVien_GUI
             this.tabBorrow.Controls.Add(this.groupBox4);
             this.tabBorrow.Controls.Add(this.groupBox3);
             this.tabBorrow.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Bold);
-            this.tabBorrow.Location = new System.Drawing.Point(4, 25);
+            this.tabBorrow.Location = new System.Drawing.Point(4, 27);
             this.tabBorrow.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabBorrow.Name = "tabBorrow";
             this.tabBorrow.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabBorrow.Size = new System.Drawing.Size(1221, 678);
+            this.tabBorrow.Size = new System.Drawing.Size(1195, 650);
             this.tabBorrow.TabIndex = 1;
             this.tabBorrow.Text = "Thống kê Mượn - Trả sách";
             // 
             // btnThoat
             // 
             this.btnThoat.BackColor = System.Drawing.Color.Moccasin;
-            this.btnThoat.Location = new System.Drawing.Point(1069, 207);
+            this.btnThoat.Location = new System.Drawing.Point(1014, 241);
             this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(125, 41);
+            this.btnThoat.Size = new System.Drawing.Size(141, 48);
             this.btnThoat.TabIndex = 6;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = false;
@@ -219,25 +219,25 @@ namespace QuanLyThuVien_GUI
             // lbEnd
             // 
             this.lbEnd.BackColor = System.Drawing.Color.White;
-            this.lbEnd.Location = new System.Drawing.Point(851, 178);
+            this.lbEnd.Location = new System.Drawing.Point(809, 196);
             this.lbEnd.Name = "lbEnd";
-            this.lbEnd.Size = new System.Drawing.Size(182, 30);
+            this.lbEnd.Size = new System.Drawing.Size(205, 34);
             this.lbEnd.TabIndex = 5;
             this.lbEnd.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbStart
             // 
             this.lbStart.BackColor = System.Drawing.Color.White;
-            this.lbStart.Location = new System.Drawing.Point(851, 127);
+            this.lbStart.Location = new System.Drawing.Point(809, 139);
             this.lbStart.Name = "lbStart";
-            this.lbStart.Size = new System.Drawing.Size(182, 30);
+            this.lbStart.Size = new System.Drawing.Size(205, 34);
             this.lbStart.TabIndex = 5;
             this.lbStart.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(686, 184);
+            this.label6.Location = new System.Drawing.Point(623, 204);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(137, 25);
             this.label6.TabIndex = 4;
@@ -246,7 +246,7 @@ namespace QuanLyThuVien_GUI
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(686, 133);
+            this.label4.Location = new System.Drawing.Point(623, 146);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(132, 25);
             this.label4.TabIndex = 4;
@@ -255,11 +255,11 @@ namespace QuanLyThuVien_GUI
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.gridStatis);
-            this.groupBox5.Location = new System.Drawing.Point(20, 243);
+            this.groupBox5.Location = new System.Drawing.Point(24, 292);
             this.groupBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox5.Size = new System.Drawing.Size(1174, 428);
+            this.groupBox5.Size = new System.Drawing.Size(1131, 346);
             this.groupBox5.TabIndex = 3;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Danh sách thống kê";
@@ -268,13 +268,13 @@ namespace QuanLyThuVien_GUI
             // 
             this.gridStatis.BackgroundColor = System.Drawing.Color.White;
             this.gridStatis.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridStatis.Location = new System.Drawing.Point(18, 34);
+            this.gridStatis.Location = new System.Drawing.Point(19, 36);
             this.gridStatis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gridStatis.Name = "gridStatis";
             this.gridStatis.ReadOnly = true;
             this.gridStatis.RowHeadersWidth = 51;
             this.gridStatis.RowTemplate.Height = 29;
-            this.gridStatis.Size = new System.Drawing.Size(1135, 390);
+            this.gridStatis.Size = new System.Drawing.Size(1089, 296);
             this.gridStatis.TabIndex = 0;
             // 
             // groupBox4
@@ -284,11 +284,11 @@ namespace QuanLyThuVien_GUI
             this.groupBox4.Controls.Add(this.btnShow);
             this.groupBox4.Controls.Add(this.label8);
             this.groupBox4.Controls.Add(this.label7);
-            this.groupBox4.Location = new System.Drawing.Point(20, 14);
+            this.groupBox4.Location = new System.Drawing.Point(24, 13);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox4.Size = new System.Drawing.Size(644, 209);
+            this.groupBox4.Size = new System.Drawing.Size(569, 218);
             this.groupBox4.TabIndex = 2;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Tùy chọn thời gian";
@@ -296,30 +296,30 @@ namespace QuanLyThuVien_GUI
             // dtpEnd
             // 
             this.dtpEnd.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpEnd.Location = new System.Drawing.Point(277, 101);
+            this.dtpEnd.Location = new System.Drawing.Point(258, 103);
             this.dtpEnd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtpEnd.Name = "dtpEnd";
-            this.dtpEnd.Size = new System.Drawing.Size(250, 31);
+            this.dtpEnd.Size = new System.Drawing.Size(281, 31);
             this.dtpEnd.TabIndex = 1;
             this.dtpEnd.ValueChanged += new System.EventHandler(this.dtpEnd_ValueChanged);
             // 
             // dtpStart
             // 
             this.dtpStart.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpStart.Location = new System.Drawing.Point(277, 38);
+            this.dtpStart.Location = new System.Drawing.Point(258, 32);
             this.dtpStart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtpStart.Name = "dtpStart";
-            this.dtpStart.Size = new System.Drawing.Size(250, 31);
+            this.dtpStart.Size = new System.Drawing.Size(281, 31);
             this.dtpStart.TabIndex = 1;
             this.dtpStart.ValueChanged += new System.EventHandler(this.dtpStart_ValueChanged);
             // 
             // btnShow
             // 
             this.btnShow.BackColor = System.Drawing.Color.Moccasin;
-            this.btnShow.Location = new System.Drawing.Point(491, 152);
+            this.btnShow.Location = new System.Drawing.Point(398, 155);
             this.btnShow.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnShow.Name = "btnShow";
-            this.btnShow.Size = new System.Drawing.Size(125, 41);
+            this.btnShow.Size = new System.Drawing.Size(141, 48);
             this.btnShow.TabIndex = 0;
             this.btnShow.Text = "Xem";
             this.btnShow.UseVisualStyleBackColor = false;
@@ -328,7 +328,7 @@ namespace QuanLyThuVien_GUI
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(90, 106);
+            this.label8.Location = new System.Drawing.Point(47, 110);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(142, 25);
             this.label8.TabIndex = 0;
@@ -337,7 +337,7 @@ namespace QuanLyThuVien_GUI
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(90, 42);
+            this.label7.Location = new System.Drawing.Point(47, 38);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(132, 25);
             this.label7.TabIndex = 0;
@@ -347,11 +347,11 @@ namespace QuanLyThuVien_GUI
             // 
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Controls.Add(this.dtpDate);
-            this.groupBox3.Location = new System.Drawing.Point(686, 14);
+            this.groupBox3.Location = new System.Drawing.Point(624, 13);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox3.Size = new System.Drawing.Size(448, 100);
+            this.groupBox3.Size = new System.Drawing.Size(504, 112);
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Xem thống kê theo Ngày";
@@ -359,7 +359,7 @@ namespace QuanLyThuVien_GUI
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(50, 50);
+            this.label5.Location = new System.Drawing.Point(56, 56);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(108, 25);
             this.label5.TabIndex = 2;
@@ -368,21 +368,22 @@ namespace QuanLyThuVien_GUI
             // dtpDate
             // 
             this.dtpDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpDate.Location = new System.Drawing.Point(195, 45);
+            this.dtpDate.Location = new System.Drawing.Point(219, 52);
             this.dtpDate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtpDate.Name = "dtpDate";
-            this.dtpDate.Size = new System.Drawing.Size(202, 31);
+            this.dtpDate.Size = new System.Drawing.Size(227, 31);
             this.dtpDate.TabIndex = 1;
             this.dtpDate.ValueChanged += new System.EventHandler(this.dtpDate_ValueChanged);
             this.dtpDate.MouseCaptureChanged += new System.EventHandler(this.dtpDate_MouseCaptureChanged);
             // 
             // f_ThongKe
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1229, 707);
+            this.ClientSize = new System.Drawing.Size(1203, 681);
             this.Controls.Add(this.tabControl1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;

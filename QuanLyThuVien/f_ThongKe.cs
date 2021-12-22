@@ -37,6 +37,10 @@ namespace QuanLyThuVien_GUI
             gridStatis.Columns[3].Width = (int)(gridStatis.Width * 0.075);
             gridStatis.Columns[4].Width = (int)(gridStatis.Width * 0.17);
             gridStatis.Columns[5].Width = (int)(gridStatis.Width * 0.1);
+            if (gridStatis.CurrentCell == null)
+            {
+                MessageBox.Show("Không có thông tin thống kê!!!");
+            }
         }
 
         private void btnShow_Click(object sender, EventArgs e)

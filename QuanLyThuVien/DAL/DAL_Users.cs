@@ -24,7 +24,7 @@ namespace DAL
                 res = (int)cmd.ExecuteScalar();
                 conn.Close();
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 res = 0;
                 if(conn.State == ConnectionState.Open)

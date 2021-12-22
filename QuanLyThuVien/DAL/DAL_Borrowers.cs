@@ -3,7 +3,6 @@ using System.Data.SqlClient;
 using System.Data;
 using QuanLyThuVien_DTO;
 using DAL;
-using DTO;
 
 namespace QuanLyThuVien_DAL
 {

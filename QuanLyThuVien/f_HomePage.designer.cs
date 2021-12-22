@@ -38,7 +38,7 @@ namespace QuanLyThuVien_GUI
             // 
             // btnBorrow
             // 
-            this.btnBorrow.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.btnBorrow.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Bold);
             this.btnBorrow.Location = new System.Drawing.Point(186, 278);
             this.btnBorrow.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBorrow.Name = "btnBorrow";
@@ -50,7 +50,7 @@ namespace QuanLyThuVien_GUI
             // 
             // btnEdit
             // 
-            this.btnEdit.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.btnEdit.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Bold);
             this.btnEdit.Location = new System.Drawing.Point(445, 278);
             this.btnEdit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEdit.Name = "btnEdit";
@@ -62,7 +62,7 @@ namespace QuanLyThuVien_GUI
             // 
             // btnStatis
             // 
-            this.btnStatis.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.btnStatis.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Bold);
             this.btnStatis.Location = new System.Drawing.Point(693, 278);
             this.btnStatis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnStatis.Name = "btnStatis";
@@ -74,7 +74,7 @@ namespace QuanLyThuVien_GUI
             // 
             // btnExit
             // 
-            this.btnExit.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.btnExit.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Bold);
             this.btnExit.Location = new System.Drawing.Point(504, 427);
             this.btnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExit.Name = "btnExit";
@@ -96,6 +96,7 @@ namespace QuanLyThuVien_GUI
             this.Controls.Add(this.btnStatis);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnBorrow);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.Red;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

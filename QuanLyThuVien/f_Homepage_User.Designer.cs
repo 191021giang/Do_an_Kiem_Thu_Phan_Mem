@@ -40,6 +40,7 @@ namespace QuanLyThuVien
             this.btnBorrow.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBorrow.ForeColor = System.Drawing.Color.Red;
             this.btnBorrow.Location = new System.Drawing.Point(330, 298);
+            this.btnBorrow.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBorrow.Name = "btnBorrow";
             this.btnBorrow.Size = new System.Drawing.Size(170, 38);
             this.btnBorrow.TabIndex = 0;
@@ -52,6 +53,7 @@ namespace QuanLyThuVien
             this.btnBook.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBook.ForeColor = System.Drawing.Color.Red;
             this.btnBook.Location = new System.Drawing.Point(581, 298);
+            this.btnBook.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBook.Name = "btnBook";
             this.btnBook.Size = new System.Drawing.Size(170, 38);
             this.btnBook.TabIndex = 0;
@@ -63,7 +65,8 @@ namespace QuanLyThuVien
             // 
             this.btnThoat.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoat.ForeColor = System.Drawing.Color.Red;
-            this.btnThoat.Location = new System.Drawing.Point(543, 441);
+            this.btnThoat.Location = new System.Drawing.Point(543, 442);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(170, 38);
             this.btnThoat.TabIndex = 0;
@@ -81,7 +84,9 @@ namespace QuanLyThuVien
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnBook);
             this.Controls.Add(this.btnBorrow);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "f_Homepage_User";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

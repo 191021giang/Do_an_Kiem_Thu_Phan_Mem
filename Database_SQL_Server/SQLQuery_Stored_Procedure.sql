@@ -28,9 +28,9 @@ CREATE PROC [dbo].[DNAdmin]
 AS 
 	BEGIN
 	    SELECT *
-		FROM dbo.UsersInformation
+		FROM dbo.Admins
 		WHERE
-			users_account = @Taikhoan
-			AND users_password = @Matkhau
+			admin_user = @Taikhoan
+			AND admin_password = @Matkhau
 	END
 GO

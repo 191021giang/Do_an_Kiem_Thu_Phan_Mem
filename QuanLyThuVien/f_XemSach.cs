@@ -1,13 +1,6 @@
-﻿using DTO;
-using QuanLyThuVien_BUS;
+﻿using QuanLyThuVien_BUS;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace QuanLyThuVien
@@ -15,7 +8,6 @@ namespace QuanLyThuVien
     public partial class f_XemSach : Form
     {
         BUS_ListBooks bus_Book = new BUS_ListBooks();
-        private DTO_Users dto_user;
         public f_XemSach()
         {
             InitializeComponent();

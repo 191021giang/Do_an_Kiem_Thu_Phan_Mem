@@ -36,7 +36,7 @@ namespace QuanLyThuVien
                     return;
             }
             MessageBox.Show("Chào mừng Admin đăng nhập", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            this.Close();
+            this.Hide();
             f_HomePage home_Admin = new f_HomePage();
             home_Admin.ShowDialog();
         }

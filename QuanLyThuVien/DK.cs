@@ -9,7 +9,6 @@ namespace QuanLyThuVien
     {
 
         DTO_Users dto_user = new DTO_Users();
-        BindingSource bs;
         public DK()
         {
             InitializeComponent();
@@ -161,7 +160,11 @@ namespace QuanLyThuVien
 
             DialogResult dg = MessageBox.Show("Bạn có muốn thoát ?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (dg == DialogResult.Yes)
-                Application.Exit();
+            {
+                this.Hide();
+                DN dangNhap = new DN();
+                dangNhap.ShowDialog();
+            }    
         }
     }
 }
