@@ -44,23 +44,29 @@ namespace QuanLyThuVien
                     string ht = txtHoTen.Text;
                     if (KiemTraHoTen(ht))
                     {
-                        dto_user.users_id = Int32.Parse(txtID.Text);
-                        dto_user.users_name = txtHoTen.Text;
-                        dto_user.users_email = txtEmail.Text;
-                        dto_user.users_phone = txtSDT.Text;
-                        dto_user.users_district = txtQuan.Text;
-                        dto_user.users_city = txtThanhPho.Text;
-                        dto_user.users_account = txtTenTaiKhoan.Text;
-                        dto_user.users_password = txtMatKhau.Text;
-                        int i = bus_user.Insert(dto_user);
-                        if (i != 0)
+                        if(txtSDT.Text.Length >= 9)
                         {
-                            MessageBox.Show("Đăng ký thành công !", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            txtID.Text = i.ToString();
-                            LoadData();
-                        }
+                            dto_user.users_id = Int32.Parse(txtID.Text);
+                            dto_user.users_name = txtHoTen.Text;
+                            dto_user.users_email = txtEmail.Text;
+                            dto_user.users_phone = txtSDT.Text;
+                            dto_user.users_district = txtQuan.Text;
+                            dto_user.users_city = txtThanhPho.Text;
+                            dto_user.users_account = txtTenTaiKhoan.Text;
+                            dto_user.users_password = txtMatKhau.Text;
+                            int i = bus_user.Insert(dto_user);
+                            if (i != 0)
+                            {
+                                MessageBox.Show("Đăng ký thành công !", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                txtID.Text = i.ToString();
+                                LoadData();
+                            }
+                            else
+                                MessageBox.Show("Bạn không phải sinh viên OU !", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        } 
                         else
-                            MessageBox.Show("Bạn không phải sinh viên OU !", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            MessageBox.Show("SĐT có độ dài từ 9-11 ký tự !", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                     }
                     else
                         MessageBox.Show("Độ dài Họ tên tối thiểu 10 ký tự, ký tự đầu phải viết hoa  !", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -140,21 +146,7 @@ namespace QuanLyThuVien
                 }                
             }
         }
-
-        private void txtSDT_Validating(object sender, CancelEventArgs e)
-        {
-            System.Text.RegularExpressions.Regex SDT = new System.Text
-             .RegularExpressions.Regex(@"^\d{9,11}$");
-            if (txtSDT.Text.Length > 0)
-            {
-                if (!SDT.IsMatch(txtMatKhau.Text))
-                {
-                    MessageBox.Show("Vui lòng nhập số điện thoại có 9-11 chữ số !!!", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    txtSDT.SelectAll();
-                    e.Cancel = true;
-                }
-            }
-        }
+              
         private void btThoatDangKy_Click(object sender, EventArgs e)
         {
 

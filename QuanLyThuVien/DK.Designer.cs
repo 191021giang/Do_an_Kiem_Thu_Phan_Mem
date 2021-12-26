@@ -120,13 +120,13 @@ namespace QuanLyThuVien
             this.txtSDT.BackColor = System.Drawing.SystemColors.HighlightText;
             this.txtSDT.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtSDT.Location = new System.Drawing.Point(263, 241);
-            this.txtSDT.MaxLength = 10;
+            this.txtSDT.MaxLength = 11;
             this.txtSDT.Multiline = true;
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(432, 33);
             this.txtSDT.TabIndex = 4;
             this.txtSDT.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSDT_KeyPress);
-            this.txtSDT.Validating += new System.ComponentModel.CancelEventHandler(this.txtSDT_Validating);
+           
             // 
             // label3
             // 
