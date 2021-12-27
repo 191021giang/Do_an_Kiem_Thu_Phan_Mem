@@ -113,7 +113,7 @@ VALUES
 (   N'Dương Thị Xuân Giang', -- admin_name - nvarchar(100)
     '0967312381',  -- admin_phone - varchar(20)
     'xuangiangAD',  -- admin_user - varchar(20)
-    'xuangiangAD'   -- admin_password - varchar(20)
+    'xuangiangAD01'   -- admin_password - varchar(20)
     )
 GO
 
@@ -128,7 +128,7 @@ VALUES
 (   N'Mai Nguyễn Xuân Kiều', -- admin_name - nvarchar(100)
     '0395901301',  -- admin_phone - varchar(20)
     'xuankieuAD',  -- admin_user - varchar(20)
-    'xuankieuAD'   -- admin_password - varchar(20)
+    'xuankieuAD02'   -- admin_password - varchar(20)
     )
 GO
 
@@ -820,7 +820,7 @@ VALUES
     N'Gò Vấp', -- users_district - nvarchar(max)
     N'TP HCM', -- users_city - nvarchar(max)
     'ngocbichSV',  -- users_account - varchar(20)
-    'ngocbichSV'  -- users_password - varchar(20)
+    'ngocbichSV2000'  -- users_password - varchar(20)
     )
 GO
 
@@ -843,7 +843,7 @@ VALUES
     N'Gò Vấp', -- users_district - nvarchar(max)
     N'TP HCM', -- users_city - nvarchar(max)
     'thuyanSV',  -- users_account - varchar(20)
-    'thuyanSV'  -- users_password - varchar(20)
+    'thuyanSV2001'  -- users_password - varchar(20)
     )
 GO
 
@@ -866,7 +866,7 @@ VALUES
     N'Bình Thạnh', -- users_district - nvarchar(max)
     N'TP HCM', -- users_city - nvarchar(max)
     'thucthanhSV',  -- users_account - varchar(20)
-    'thucthanhSV'  -- users_password - varchar(20)
+    'thucthanhSV2002'  -- users_password - varchar(20)
     )
 GO
 
@@ -889,7 +889,7 @@ VALUES
     N'Quận 12', -- users_district - nvarchar(max)
     N'TP HCM', -- users_city - nvarchar(max)
     'ngocmaiGV',  -- users_account - varchar(20)
-    'ngocmaiGV'  -- users_password - varchar(20)
+    'ngocmaiGV2003'  -- users_password - varchar(20)
     )
 GO
 
@@ -912,7 +912,7 @@ VALUES
     N'Phú Nhuận', -- users_district - nvarchar(max)
     N'TP HCM', -- users_city - nvarchar(max)
     'thanhthaoGV',  -- users_account - varchar(20)
-    'thanhthaoGV'  -- users_password - varchar(20)
+    'thanhthaoGV2004'  -- users_password - varchar(20)
     )
 GO
 
@@ -935,7 +935,7 @@ VALUES
     N'Phú Nhuận', -- users_district - nvarchar(max)
     N'TP HCM', -- users_city - nvarchar(max)
     'thuyanhSV',  -- users_account - varchar(20)
-    'thuyanhSV'  -- users_password - varchar(20)
+    'thuyanhSV2005'  -- users_password - varchar(20)
     )
 GO
 
@@ -958,7 +958,7 @@ VALUES
     N'Tân Bình', -- users_district - nvarchar(max)
     N'TP HCM', -- users_city - nvarchar(max)
     'uyennhiSV',  -- users_account - varchar(20)
-    'uyennhiSV'   -- users_password - varchar(20)
+    'uyennhiSV2006'   -- users_password - varchar(20)
     )
 GO
 
@@ -981,7 +981,7 @@ VALUES
     N'Tân Bình', -- users_district - nvarchar(max)
     N'TP HCM', -- users_city - nvarchar(max)
     'khanhquynhSV',  -- users_account - varchar(20)
-    'khanhquynhSV'   -- users_password - varchar(20)
+    'khanhquynhSV2007'   -- users_password - varchar(20)
     )
 GO
 
@@ -1004,7 +1004,7 @@ VALUES
     N'Bình Thạnh', -- users_district - nvarchar(max)
     N'TP HCM', -- users_city - nvarchar(max)
     'anhminhSV',  -- users_account - varchar(20)
-    'anhminhSV'   -- users_password - varchar(20)
+    'anhminhSV2008'   -- users_password - varchar(20)
     )
 GO
 
@@ -1027,7 +1027,7 @@ VALUES
     N'Quận 12', -- users_district - nvarchar(max)
     N'TP HCM', -- users_city - nvarchar(max)
     'dangkhoaGV',  -- users_account - varchar(20)
-    'dangkhoaGV'   -- users_password - varchar(20)
+    'dangkhoaGV2009'   -- users_password - varchar(20)
     )
 GO
 
@@ -1050,7 +1050,7 @@ VALUES
     N'Gò Vấp', -- users_district - nvarchar(max)
     N'TP HCM', -- users_city - nvarchar(max)
     'danhaSV',  -- users_account - varchar(20)
-    'danhaSV'   -- users_password - varchar(20)
+    'danhaSV2010'   -- users_password - varchar(20)
     )
 GO
 
@@ -1073,7 +1073,7 @@ VALUES
     N'Gò Vấp', -- users_district - nvarchar(max)
     N'TP HCM', -- users_city - nvarchar(max)
     'cattienSV',  -- users_account - varchar(20)
-    'cattienSV'   -- users_password - varchar(20)
+    'cattienSV2011'   -- users_password - varchar(20)
     )
 GO
 
@@ -1096,7 +1096,7 @@ VALUES
     N'Tân Bình', -- users_district - nvarchar(max)
     N'TP HCM', -- users_city - nvarchar(max)
     'hanhnganSV',  -- users_account - varchar(20)
-    'hanhnganSV'   -- users_password - varchar(20)
+    'hanhnganSV2012'   -- users_password - varchar(20)
     )
 GO
 
@@ -1119,7 +1119,7 @@ VALUES
     N'Phú Nhuận', -- users_district - nvarchar(max)
     N'TP HCM', -- users_city - nvarchar(max)
     'tonhuSV',  -- users_account - varchar(20)
-    'tonhuSV'   -- users_password - varchar(20)
+    'tonhuSV2013'   -- users_password - varchar(20)
     )
 GO
 
@@ -1142,7 +1142,7 @@ VALUES
     N'Quận 10', -- users_district - nvarchar(max)
     N'TP HCM', -- users_city - nvarchar(max)
     'levySV',  -- users_account - varchar(20)
-    'levySV'   -- users_password - varchar(20)
+    'levySV2014'   -- users_password - varchar(20)
     )
 GO
 
@@ -1165,7 +1165,7 @@ VALUES
     N'Gò Vấp', -- users_district - nvarchar(max)
     N'TP HCM', -- users_city - nvarchar(max)
     'tuyetmaiGV',  -- users_account - varchar(20)
-    'tuyetmaiGV'   -- users_password - varchar(20)
+    'tuyetmaiGV2015'   -- users_password - varchar(20)
     )
 GO
 
@@ -1188,7 +1188,7 @@ VALUES
     N'Bình Thạnh', -- users_district - nvarchar(max)
     N'TP HCM', -- users_city - nvarchar(max)
     'gianguyenGV',  -- users_account - varchar(20)
-    'gianguyenGV'   -- users_password - varchar(20)
+    'gianguyenGV2016'   -- users_password - varchar(20)
     )
 GO
 
@@ -1211,7 +1211,7 @@ VALUES
     N'Gò Vấp', -- users_district - nvarchar(max)
     N'TP HCM', -- users_city - nvarchar(max)
     'dinhhaoGV',  -- users_account - varchar(20)
-    'dinhhaoGV'   -- users_password - varchar(20)
+    'dinhhaoGV2017'   -- users_password - varchar(20)
     )
 GO
 
@@ -1234,7 +1234,7 @@ VALUES
     N'Phú Nhuận', -- users_district - nvarchar(max)
     N'TP HCM', -- users_city - nvarchar(max)
     'quybinhSV',  -- users_account - varchar(20)
-    'quybinhSV'   -- users_password - varchar(20)
+    'quybinhSV2018'   -- users_password - varchar(20)
     )
 GO
 
@@ -1257,7 +1257,7 @@ VALUES
     N'Tân Bình', -- users_district - nvarchar(max)
     N'TP HCM', -- users_city - nvarchar(max)
     'baokhuongSV',  -- users_account - varchar(20)
-    'baokhuongSV'   -- users_password - varchar(20)
+    'baokhuongSV2019'   -- users_password - varchar(20)
     )
 GO
 
