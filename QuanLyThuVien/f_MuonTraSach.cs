@@ -129,7 +129,7 @@ namespace QuanLyThuVien_GUI
             }
             finally
             {
-                numQttBorrow.Value = 0;
+                numQttBorrow.Value = 1;
             }
             
         }
