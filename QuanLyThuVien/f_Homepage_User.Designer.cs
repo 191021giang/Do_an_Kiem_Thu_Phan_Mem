@@ -56,7 +56,7 @@ namespace QuanLyThuVien
             this.btnBook.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBook.Name = "btnBook";
             this.btnBook.Size = new System.Drawing.Size(170, 38);
-            this.btnBook.TabIndex = 0;
+            this.btnBook.TabIndex = 1;
             this.btnBook.Text = "Xem Sách";
             this.btnBook.UseVisualStyleBackColor = true;
             this.btnBook.Click += new System.EventHandler(this.btnBook_Click);
@@ -69,7 +69,7 @@ namespace QuanLyThuVien
             this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(170, 38);
-            this.btnThoat.TabIndex = 0;
+            this.btnThoat.TabIndex = 2;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);

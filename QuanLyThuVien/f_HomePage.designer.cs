@@ -55,7 +55,7 @@ namespace QuanLyThuVien_GUI
             this.btnEdit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(170, 38);
-            this.btnEdit.TabIndex = 0;
+            this.btnEdit.TabIndex = 1;
             this.btnEdit.Text = "Chỉnh Sửa Sách";
             this.btnEdit.UseVisualStyleBackColor = true;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
@@ -67,7 +67,7 @@ namespace QuanLyThuVien_GUI
             this.btnStatis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnStatis.Name = "btnStatis";
             this.btnStatis.Size = new System.Drawing.Size(170, 38);
-            this.btnStatis.TabIndex = 0;
+            this.btnStatis.TabIndex = 2;
             this.btnStatis.Text = "Xem Thống Kê";
             this.btnStatis.UseVisualStyleBackColor = true;
             this.btnStatis.Click += new System.EventHandler(this.btnStatis_Click);
@@ -79,7 +79,7 @@ namespace QuanLyThuVien_GUI
             this.btnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(170, 38);
-            this.btnExit.TabIndex = 0;
+            this.btnExit.TabIndex = 3;
             this.btnExit.Text = "Thoát";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);

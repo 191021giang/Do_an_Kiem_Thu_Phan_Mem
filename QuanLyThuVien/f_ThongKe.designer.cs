@@ -107,6 +107,7 @@ namespace QuanLyThuVien_GUI
             this.btnThoat_tab1.Text = "Thoát";
             this.btnThoat_tab1.UseVisualStyleBackColor = false;
             this.btnThoat_tab1.Click += new System.EventHandler(this.btnThoat_tab1_Click);
+            this.btnThoat_tab1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnThoat_tab1_KeyPress);
             // 
             // groupBox2
             // 
@@ -211,10 +212,11 @@ namespace QuanLyThuVien_GUI
             this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(141, 48);
-            this.btnThoat.TabIndex = 6;
+            this.btnThoat.TabIndex = 3;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = false;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_tab1_Click);
+            this.btnThoat.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnThoat_KeyPress);
             // 
             // lbEnd
             // 
@@ -260,7 +262,7 @@ namespace QuanLyThuVien_GUI
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox5.Size = new System.Drawing.Size(1131, 346);
-            this.groupBox5.TabIndex = 3;
+            this.groupBox5.TabIndex = 4;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Danh sách thống kê";
             // 
@@ -275,7 +277,7 @@ namespace QuanLyThuVien_GUI
             this.gridStatis.RowHeadersWidth = 51;
             this.gridStatis.RowTemplate.Height = 29;
             this.gridStatis.Size = new System.Drawing.Size(1089, 296);
-            this.gridStatis.TabIndex = 0;
+            this.gridStatis.TabIndex = 4;
             // 
             // groupBox4
             // 
@@ -302,6 +304,7 @@ namespace QuanLyThuVien_GUI
             this.dtpEnd.Size = new System.Drawing.Size(281, 31);
             this.dtpEnd.TabIndex = 1;
             this.dtpEnd.ValueChanged += new System.EventHandler(this.dtpEnd_ValueChanged);
+            this.dtpEnd.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.dtpEnd_KeyPress);
             // 
             // dtpStart
             // 
@@ -310,7 +313,7 @@ namespace QuanLyThuVien_GUI
             this.dtpStart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtpStart.Name = "dtpStart";
             this.dtpStart.Size = new System.Drawing.Size(281, 31);
-            this.dtpStart.TabIndex = 1;
+            this.dtpStart.TabIndex = 0;
             this.dtpStart.ValueChanged += new System.EventHandler(this.dtpStart_ValueChanged);
             // 
             // btnShow
@@ -320,10 +323,11 @@ namespace QuanLyThuVien_GUI
             this.btnShow.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnShow.Name = "btnShow";
             this.btnShow.Size = new System.Drawing.Size(141, 48);
-            this.btnShow.TabIndex = 0;
+            this.btnShow.TabIndex = 2;
             this.btnShow.Text = "Xem";
             this.btnShow.UseVisualStyleBackColor = false;
             this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
+            this.btnShow.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnShow_KeyPress);
             // 
             // label8
             // 
@@ -374,6 +378,7 @@ namespace QuanLyThuVien_GUI
             this.dtpDate.Size = new System.Drawing.Size(227, 31);
             this.dtpDate.TabIndex = 1;
             this.dtpDate.ValueChanged += new System.EventHandler(this.dtpDate_ValueChanged);
+            this.dtpDate.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.dtpDate_KeyPress);
             this.dtpDate.MouseCaptureChanged += new System.EventHandler(this.dtpDate_MouseCaptureChanged);
             // 
             // f_ThongKe

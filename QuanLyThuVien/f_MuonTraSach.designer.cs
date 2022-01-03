@@ -47,7 +47,6 @@ namespace QuanLyThuVien_GUI
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.numQttBorrow = new System.Windows.Forms.NumericUpDown();
             this.dtpAppointDateReturn_tabMuon = new System.Windows.Forms.DateTimePicker();
             this.label8 = new System.Windows.Forms.Label();
             this.dtpDateBorrow_tabMuon = new System.Windows.Forms.DateTimePicker();
@@ -101,13 +100,13 @@ namespace QuanLyThuVien_GUI
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.numQttBorrow = new System.Windows.Forms.NumericUpDown();
             this.tabControl_MuonTra.SuspendLayout();
             this.tabMuonSach.SuspendLayout();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridListBorrow)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numQttBorrow)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.tabTraSach.SuspendLayout();
             this.groupBox8.SuspendLayout();
@@ -115,6 +114,7 @@ namespace QuanLyThuVien_GUI
             this.groupBox6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridListReturn_tabTra)).BeginInit();
             this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numQttBorrow)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl_MuonTra
@@ -128,6 +128,7 @@ namespace QuanLyThuVien_GUI
             this.tabControl_MuonTra.SelectedIndex = 0;
             this.tabControl_MuonTra.Size = new System.Drawing.Size(1472, 825);
             this.tabControl_MuonTra.TabIndex = 0;
+            this.tabControl_MuonTra.SelectedIndexChanged += new System.EventHandler(this.tabControl_MuonTra_SelectedIndexChanged);
             // 
             // tabMuonSach
             // 
@@ -161,21 +162,23 @@ namespace QuanLyThuVien_GUI
             this.btnThoat_tabMuon.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnThoat_tabMuon.Name = "btnThoat_tabMuon";
             this.btnThoat_tabMuon.Size = new System.Drawing.Size(248, 51);
-            this.btnThoat_tabMuon.TabIndex = 7;
+            this.btnThoat_tabMuon.TabIndex = 4;
             this.btnThoat_tabMuon.Text = "Thoát";
             this.btnThoat_tabMuon.UseVisualStyleBackColor = false;
             this.btnThoat_tabMuon.Click += new System.EventHandler(this.btnThoat_tabMuon_Click);
+            this.btnThoat_tabMuon.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnThoat_tabMuon_KeyPress);
             // 
             // label9
             // 
             this.label9.BackColor = System.Drawing.Color.Moccasin;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Bold);
-            this.label9.Location = new System.Drawing.Point(316, 285);
+            this.label9.Location = new System.Drawing.Point(193, 291);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(220, 48);
+            this.label9.Size = new System.Drawing.Size(343, 33);
             this.label9.TabIndex = 6;
             this.label9.Text = "Tìm kiếm Danh Sách Mượn theo MSSV";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtSearch_tabMuon
             // 
@@ -186,10 +189,11 @@ namespace QuanLyThuVien_GUI
             this.txtSearch_tabMuon.Multiline = true;
             this.txtSearch_tabMuon.Name = "txtSearch_tabMuon";
             this.txtSearch_tabMuon.Size = new System.Drawing.Size(518, 33);
-            this.txtSearch_tabMuon.TabIndex = 5;
+            this.txtSearch_tabMuon.TabIndex = 7;
             this.txtSearch_tabMuon.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtSearch_tabMuon.Click += new System.EventHandler(this.txtSearch_tabMuon_Click);
             this.txtSearch_tabMuon.TextChanged += new System.EventHandler(this.txtSearch_tabMuon_TextChanged);
+            this.txtSearch_tabMuon.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSearch_tabMuon_KeyPress);
             // 
             // groupBox4
             // 
@@ -200,7 +204,7 @@ namespace QuanLyThuVien_GUI
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox4.Size = new System.Drawing.Size(1422, 454);
-            this.groupBox4.TabIndex = 4;
+            this.groupBox4.TabIndex = 8;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Danh Sách Mượn";
             // 
@@ -215,7 +219,7 @@ namespace QuanLyThuVien_GUI
             this.gridListBorrow.RowHeadersWidth = 51;
             this.gridListBorrow.RowTemplate.Height = 29;
             this.gridListBorrow.Size = new System.Drawing.Size(1396, 422);
-            this.gridListBorrow.TabIndex = 0;
+            this.gridListBorrow.TabIndex = 8;
             // 
             // btnDelAllListBorrow
             // 
@@ -225,10 +229,11 @@ namespace QuanLyThuVien_GUI
             this.btnDelAllListBorrow.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnDelAllListBorrow.Name = "btnDelAllListBorrow";
             this.btnDelAllListBorrow.Size = new System.Drawing.Size(248, 51);
-            this.btnDelAllListBorrow.TabIndex = 4;
+            this.btnDelAllListBorrow.TabIndex = 6;
             this.btnDelAllListBorrow.Text = "Ẩn Danh Sách Mượn";
             this.btnDelAllListBorrow.UseVisualStyleBackColor = false;
             this.btnDelAllListBorrow.Click += new System.EventHandler(this.btnDelAllListBorrow_Click);
+            this.btnDelAllListBorrow.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnDelAllListBorrow_KeyPress);
             // 
             // btnShowAllListBorrow
             // 
@@ -239,10 +244,11 @@ namespace QuanLyThuVien_GUI
             this.btnShowAllListBorrow.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnShowAllListBorrow.Name = "btnShowAllListBorrow";
             this.btnShowAllListBorrow.Size = new System.Drawing.Size(248, 51);
-            this.btnShowAllListBorrow.TabIndex = 4;
+            this.btnShowAllListBorrow.TabIndex = 5;
             this.btnShowAllListBorrow.Text = "Danh Sách Mượn";
             this.btnShowAllListBorrow.UseVisualStyleBackColor = false;
             this.btnShowAllListBorrow.Click += new System.EventHandler(this.btnShowAllListBorrow_Click);
+            this.btnShowAllListBorrow.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnShowAllListBorrow_KeyPress);
             // 
             // btnConfirm
             // 
@@ -256,6 +262,7 @@ namespace QuanLyThuVien_GUI
             this.btnConfirm.Text = "Xác Nhận";
             this.btnConfirm.UseVisualStyleBackColor = false;
             this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
+            this.btnConfirm.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnConfirm_KeyPress);
             // 
             // groupBox3
             // 
@@ -283,7 +290,7 @@ namespace QuanLyThuVien_GUI
             this.lbQAfterBorrow_tabMuon.Name = "lbQAfterBorrow_tabMuon";
             this.lbQAfterBorrow_tabMuon.Size = new System.Drawing.Size(112, 30);
             this.lbQAfterBorrow_tabMuon.TabIndex = 1;
-            this.lbQAfterBorrow_tabMuon.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbQAfterBorrow_tabMuon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbBookID3_tabMuon
             // 
@@ -294,7 +301,7 @@ namespace QuanLyThuVien_GUI
             this.lbBookID3_tabMuon.Name = "lbBookID3_tabMuon";
             this.lbBookID3_tabMuon.Size = new System.Drawing.Size(189, 30);
             this.lbBookID3_tabMuon.TabIndex = 1;
-            this.lbBookID3_tabMuon.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbBookID3_tabMuon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label6
             // 
@@ -349,14 +356,6 @@ namespace QuanLyThuVien_GUI
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thực Hiện Cho Mượn";
             // 
-            // numQttBorrow
-            // 
-            this.numQttBorrow.Location = new System.Drawing.Point(220, 123);
-            this.numQttBorrow.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.numQttBorrow.Name = "numQttBorrow";
-            this.numQttBorrow.Size = new System.Drawing.Size(184, 31);
-            this.numQttBorrow.TabIndex = 5;
-            // 
             // dtpAppointDateReturn_tabMuon
             // 
             this.dtpAppointDateReturn_tabMuon.CalendarMonthBackground = System.Drawing.Color.White;
@@ -381,6 +380,7 @@ namespace QuanLyThuVien_GUI
             // dtpDateBorrow_tabMuon
             // 
             this.dtpDateBorrow_tabMuon.CalendarMonthBackground = System.Drawing.Color.White;
+            this.dtpDateBorrow_tabMuon.Enabled = false;
             this.dtpDateBorrow_tabMuon.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpDateBorrow_tabMuon.Location = new System.Drawing.Point(220, 165);
             this.dtpDateBorrow_tabMuon.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -418,7 +418,7 @@ namespace QuanLyThuVien_GUI
             this.lbBookID2_tabMuon.Name = "lbBookID2_tabMuon";
             this.lbBookID2_tabMuon.Size = new System.Drawing.Size(270, 33);
             this.lbBookID2_tabMuon.TabIndex = 2;
-            this.lbBookID2_tabMuon.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbBookID2_tabMuon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label12
             // 
@@ -448,7 +448,8 @@ namespace QuanLyThuVien_GUI
             this.cbUserID_tabMuon.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cbUserID_tabMuon.Name = "cbUserID_tabMuon";
             this.cbUserID_tabMuon.Size = new System.Drawing.Size(270, 31);
-            this.cbUserID_tabMuon.TabIndex = 1;
+            this.cbUserID_tabMuon.TabIndex = 2;
+            this.cbUserID_tabMuon.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cbUserID_tabMuon_KeyPress);
             // 
             // label10
             // 
@@ -493,7 +494,7 @@ namespace QuanLyThuVien_GUI
             this.lbAvaidlid_tabMuon.Name = "lbAvaidlid_tabMuon";
             this.lbAvaidlid_tabMuon.Size = new System.Drawing.Size(256, 33);
             this.lbAvaidlid_tabMuon.TabIndex = 2;
-            this.lbAvaidlid_tabMuon.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbAvaidlid_tabMuon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbAuthName_tabMuon
             // 
@@ -504,7 +505,7 @@ namespace QuanLyThuVien_GUI
             this.lbAuthName_tabMuon.Name = "lbAuthName_tabMuon";
             this.lbAuthName_tabMuon.Size = new System.Drawing.Size(338, 33);
             this.lbAuthName_tabMuon.TabIndex = 2;
-            this.lbAuthName_tabMuon.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbAuthName_tabMuon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label7
             // 
@@ -525,7 +526,7 @@ namespace QuanLyThuVien_GUI
             this.lbCategoryName_tabMuon.Name = "lbCategoryName_tabMuon";
             this.lbCategoryName_tabMuon.Size = new System.Drawing.Size(338, 33);
             this.lbCategoryName_tabMuon.TabIndex = 2;
-            this.lbCategoryName_tabMuon.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbCategoryName_tabMuon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbBookID_tabMuon
             // 
@@ -536,7 +537,7 @@ namespace QuanLyThuVien_GUI
             this.lbBookID_tabMuon.Name = "lbBookID_tabMuon";
             this.lbBookID_tabMuon.Size = new System.Drawing.Size(338, 33);
             this.lbBookID_tabMuon.TabIndex = 2;
-            this.lbBookID_tabMuon.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbBookID_tabMuon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // cbBookName_tabMuon
             // 
@@ -626,10 +627,11 @@ namespace QuanLyThuVien_GUI
             this.btnThoat_tabTra.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnThoat_tabTra.Name = "btnThoat_tabTra";
             this.btnThoat_tabTra.Size = new System.Drawing.Size(184, 40);
-            this.btnThoat_tabTra.TabIndex = 7;
+            this.btnThoat_tabTra.TabIndex = 5;
             this.btnThoat_tabTra.Text = "Thoát";
             this.btnThoat_tabTra.UseVisualStyleBackColor = false;
             this.btnThoat_tabTra.Click += new System.EventHandler(this.btnThoat_tabMuon_Click);
+            this.btnThoat_tabTra.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnThoat_tabTra_KeyPress);
             // 
             // btnConfirm_tabTra
             // 
@@ -640,10 +642,11 @@ namespace QuanLyThuVien_GUI
             this.btnConfirm_tabTra.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnConfirm_tabTra.Name = "btnConfirm_tabTra";
             this.btnConfirm_tabTra.Size = new System.Drawing.Size(184, 40);
-            this.btnConfirm_tabTra.TabIndex = 6;
+            this.btnConfirm_tabTra.TabIndex = 2;
             this.btnConfirm_tabTra.Text = "Xác Nhận";
             this.btnConfirm_tabTra.UseVisualStyleBackColor = false;
             this.btnConfirm_tabTra.Click += new System.EventHandler(this.btnConfirm_tabTra_Click);
+            this.btnConfirm_tabTra.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnConfirm_tabTra_KeyPress);
             // 
             // groupBox8
             // 
@@ -669,11 +672,12 @@ namespace QuanLyThuVien_GUI
             this.rbNotPaid_tabTra.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.rbNotPaid_tabTra.Name = "rbNotPaid_tabTra";
             this.rbNotPaid_tabTra.Size = new System.Drawing.Size(159, 29);
-            this.rbNotPaid_tabTra.TabIndex = 1;
+            this.rbNotPaid_tabTra.TabIndex = 4;
             this.rbNotPaid_tabTra.TabStop = true;
             this.rbNotPaid_tabTra.Text = "Chưa nộp phạt";
             this.rbNotPaid_tabTra.UseVisualStyleBackColor = true;
             this.rbNotPaid_tabTra.CheckedChanged += new System.EventHandler(this.rbNotPaid_tabTra_CheckedChanged);
+            this.rbNotPaid_tabTra.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.rbNotPaid_tabTra_KeyPress);
             // 
             // rbDonePaid_tabTra
             // 
@@ -685,11 +689,12 @@ namespace QuanLyThuVien_GUI
             this.rbDonePaid_tabTra.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.rbDonePaid_tabTra.Name = "rbDonePaid_tabTra";
             this.rbDonePaid_tabTra.Size = new System.Drawing.Size(138, 29);
-            this.rbDonePaid_tabTra.TabIndex = 0;
+            this.rbDonePaid_tabTra.TabIndex = 3;
             this.rbDonePaid_tabTra.TabStop = true;
             this.rbDonePaid_tabTra.Text = "Đã nộp phạt";
             this.rbDonePaid_tabTra.UseVisualStyleBackColor = true;
             this.rbDonePaid_tabTra.CheckedChanged += new System.EventHandler(this.rbDonePaid_tabTra_CheckedChanged);
+            this.rbDonePaid_tabTra.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.rbDonePaid_tabTra_KeyPress);
             // 
             // groupBox7
             // 
@@ -737,7 +742,7 @@ namespace QuanLyThuVien_GUI
             this.lbQttAReturn_tabTra.Name = "lbQttAReturn_tabTra";
             this.lbQttAReturn_tabTra.Size = new System.Drawing.Size(140, 33);
             this.lbQttAReturn_tabTra.TabIndex = 2;
-            this.lbQttAReturn_tabTra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbQttAReturn_tabTra.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbQttAvailid_tabTra
             // 
@@ -747,7 +752,7 @@ namespace QuanLyThuVien_GUI
             this.lbQttAvailid_tabTra.Name = "lbQttAvailid_tabTra";
             this.lbQttAvailid_tabTra.Size = new System.Drawing.Size(140, 33);
             this.lbQttAvailid_tabTra.TabIndex = 2;
-            this.lbQttAvailid_tabTra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbQttAvailid_tabTra.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label26
             // 
@@ -793,7 +798,7 @@ namespace QuanLyThuVien_GUI
             this.gridListReturn_tabTra.RowHeadersWidth = 51;
             this.gridListReturn_tabTra.RowTemplate.Height = 29;
             this.gridListReturn_tabTra.Size = new System.Drawing.Size(1408, 405);
-            this.gridListReturn_tabTra.TabIndex = 0;
+            this.gridListReturn_tabTra.TabIndex = 1;
             this.gridListReturn_tabTra.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridListReturn_tabTra_CellClick);
             // 
             // groupBox5
@@ -831,6 +836,7 @@ namespace QuanLyThuVien_GUI
             this.lbNote_tabTra.Name = "lbNote_tabTra";
             this.lbNote_tabTra.Size = new System.Drawing.Size(270, 33);
             this.lbNote_tabTra.TabIndex = 6;
+            this.lbNote_tabTra.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label23
             // 
@@ -862,7 +868,6 @@ namespace QuanLyThuVien_GUI
             this.dtpReturn_tabTra.Size = new System.Drawing.Size(270, 31);
             this.dtpReturn_tabTra.TabIndex = 3;
             this.dtpReturn_tabTra.Value = new System.DateTime(2021, 12, 13, 18, 27, 25, 0);
-            this.dtpReturn_tabTra.ValueChanged += new System.EventHandler(this.dtpReturn_tabTra_ValueChanged);
             // 
             // dtpBorrow_tabTra
             // 
@@ -882,7 +887,7 @@ namespace QuanLyThuVien_GUI
             this.lbQttBorrow_tabTra.Name = "lbQttBorrow_tabTra";
             this.lbQttBorrow_tabTra.Size = new System.Drawing.Size(184, 33);
             this.lbQttBorrow_tabTra.TabIndex = 2;
-            this.lbQttBorrow_tabTra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbQttBorrow_tabTra.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbBookID_tabTra
             // 
@@ -892,7 +897,7 @@ namespace QuanLyThuVien_GUI
             this.lbBookID_tabTra.Name = "lbBookID_tabTra";
             this.lbBookID_tabTra.Size = new System.Drawing.Size(270, 33);
             this.lbBookID_tabTra.TabIndex = 2;
-            this.lbBookID_tabTra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbBookID_tabTra.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // cbUser_tabTra
             // 
@@ -977,6 +982,21 @@ namespace QuanLyThuVien_GUI
             this.label17.TabIndex = 0;
             this.label17.Text = "Mã độc giả:";
             // 
+            // numQttBorrow
+            // 
+            this.numQttBorrow.BackColor = System.Drawing.Color.White;
+            this.numQttBorrow.Enabled = false;
+            this.numQttBorrow.Location = new System.Drawing.Point(220, 123);
+            this.numQttBorrow.Name = "numQttBorrow";
+            this.numQttBorrow.Size = new System.Drawing.Size(187, 31);
+            this.numQttBorrow.TabIndex = 4;
+            this.numQttBorrow.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.numQttBorrow.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
             // f_MuonTraSach
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
@@ -1001,7 +1021,6 @@ namespace QuanLyThuVien_GUI
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numQttBorrow)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.tabTraSach.ResumeLayout(false);
@@ -1013,6 +1032,7 @@ namespace QuanLyThuVien_GUI
             ((System.ComponentModel.ISupportInitialize)(this.gridListReturn_tabTra)).EndInit();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numQttBorrow)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1053,7 +1073,6 @@ namespace QuanLyThuVien_GUI
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.NumericUpDown numQttBorrow;
         private System.Windows.Forms.Button btnDelAllListBorrow;
         private System.Windows.Forms.Button btnShowAllListBorrow;
         private System.Windows.Forms.DataGridView gridListBorrow;
@@ -1090,5 +1109,6 @@ namespace QuanLyThuVien_GUI
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Button btnThoat_tabMuon;
         private System.Windows.Forms.Button btnThoat_tabTra;
+        private System.Windows.Forms.NumericUpDown numQttBorrow;
     }
 }

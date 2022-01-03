@@ -46,6 +46,29 @@ namespace QuanLyThuVien_DAL
             }
         }
         
+        public int count_qtt(long book_id)
+        {
+            string query = string.Format(@"SELECT available_quantity
+                                            FROM dbo.BooksStore
+                                            WHERE book_id = {0}", book_id);
+            SqlCommand cmd = new SqlCommand(query, conn);
+            try
+            {
+                conn.Open();
+                int qtt = (int)cmd.ExecuteScalar();
+                return qtt;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return -1;
+        }
+
         /// <summary>
         /// Hàm thêm thông tin người mượn vào bảng Borrowers
         /// </summary>
@@ -53,6 +76,11 @@ namespace QuanLyThuVien_DAL
         /// <returns></returns>
         public bool addBorrow(DTO_Borrowers dto_Borrow)
         {
+            if (count_qtt(dto_Borrow.book_id) < dto_Borrow.qtt_borrow)
+            {
+                return false;
+            }
+
             string query = string.Format(@"INSERT INTO dbo.Borrowers
                                             (
                                                 student_id,

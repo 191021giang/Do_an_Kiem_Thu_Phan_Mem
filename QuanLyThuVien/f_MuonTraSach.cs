@@ -82,10 +82,7 @@ namespace QuanLyThuVien_GUI
                 {
                     throw new Exception("Vui lòng nhập đầy đủ các trường bị thiếu!!!");
                 }
-                if (numQttBorrow.Value == 0)
-                {
-                    throw new Exception("Số lượng sách mượn phải lớn hơn 0!");                    
-                }
+
                 int qtt_availid;
                 qtt_availid = Int32.Parse(lbAvaidlid_tabMuon.Text.ToString());
 
@@ -123,6 +120,7 @@ namespace QuanLyThuVien_GUI
                 lbCategoryName_tabMuon.Text = lbAuthName_tabMuon.Text = "";
                 lbAvaidlid_tabMuon.Text = lbQAfterBorrow_tabMuon.Text = "";
                 dtpDateBorrow_tabMuon.Value = DateTime.Now;
+                cbBookName_tabMuon.Focus();
                 
             }
             catch (Exception ex)
@@ -167,9 +165,12 @@ namespace QuanLyThuVien_GUI
         {
             try
             {
-                string value = txtSearch_tabMuon.Text;
-                DataTable dt = bus_borrow.searching_Borrow(value);
-                gridListBorrow.DataSource = dt;
+                if (txtSearch_tabMuon.Text != "") 
+                {
+                    string value = txtSearch_tabMuon.Text;
+                    DataTable dt = bus_borrow.searching_Borrow(value);
+                    gridListBorrow.DataSource = dt;
+                }                
             }
             catch (FormatException ex)
             {
@@ -221,8 +222,6 @@ namespace QuanLyThuVien_GUI
             //Tự thêm giá trị cho Ngày hẹn trả
             dtpAppointDateReturn_tabMuon.Value = dtpDateBorrow_tabMuon.Value.AddDays(30);
 
-            //Đặt số lượng mượn sách là 0
-            numQttBorrow.Value = 0;
 
             co = true;
         }
@@ -388,7 +387,6 @@ namespace QuanLyThuVien_GUI
                         rbNotPaid_tabTra.Enabled = true;
                         btnConfirm_tabTra.Enabled = true;
                     }
-
                 }
 
             }
@@ -426,7 +424,6 @@ namespace QuanLyThuVien_GUI
                     rbNotPaid_tabTra.Enabled = false;
                     btnConfirm_tabTra.Enabled = false;
                 }
-
             }
         }
 
@@ -452,21 +449,6 @@ namespace QuanLyThuVien_GUI
             rbNotPaid_tabTra.Checked = false;
         }
 
-        private void dtpReturn_tabTra_ValueChanged(object sender, EventArgs e)
-        {
-            try
-            {
-                if (dtpReturn_tabTra.Value < dtpBorrow_tabTra.Value)
-                {
-                    throw new Exception("Ngày thực trả nhỏ hơn ngày mượn!\nVui lòng chọn lại!!!");
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
-
         private void btnConfirm_tabTra_Click(object sender, EventArgs e)
         {
             try
@@ -488,8 +470,11 @@ namespace QuanLyThuVien_GUI
                         {
                             MessageBox.Show("Cập nhật thành công!");
                             string value = cbUser_tabTra.Text;
+                            //Cập nhật danh sách trả
                             DataTable dtLoad = bus_borrow.searching_Borrow(value);
                             gridListReturn_tabTra.DataSource = dtLoad;
+                            
+
                         }
 
                     }
@@ -534,11 +519,111 @@ namespace QuanLyThuVien_GUI
             return format_date;
         }
 
+        private void setup_Datagridview(DataGridView grid, int count_col)
+        {
+            
+        }
+
         private void btnThoat_tabMuon_Click(object sender, EventArgs e)
         {
             this.Hide();
             f_HomePage home = new f_HomePage();
             home.ShowDialog();
+        }
+
+        private void tabControl_MuonTra_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (tabControl_MuonTra.SelectedTab == tabMuonSach)
+            {
+                //Cập nhật danh sách mượn                            
+                DataTable dtBorrow = bus_borrow.getGrid_Borrowers();
+                gridListBorrow.DataSource = dtBorrow;
+            }
+        }
+
+        private void btnConfirm_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((Keys)e.KeyChar == Keys.Enter) 
+            {
+                btnConfirm_Click(sender, e);
+            }
+        }
+
+        private void cbUserID_tabMuon_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((Keys)e.KeyChar == Keys.Enter)
+            {
+                btnConfirm_Click(sender, e);
+            }
+        }
+
+        private void btnThoat_tabMuon_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((Keys)e.KeyChar == Keys.Enter)
+            {
+                btnThoat_tabMuon_Click(sender, e);
+            }
+        }
+
+        private void btnShowAllListBorrow_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((Keys)e.KeyChar == Keys.Enter)
+            {
+                btnShowAllListBorrow_Click(sender, e);
+            }
+        }
+
+        private void btnDelAllListBorrow_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((Keys)e.KeyChar == Keys.Enter)
+            {
+                btnDelAllListBorrow_Click(sender, e);
+            }
+        }
+
+        private void txtSearch_tabMuon_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((Keys)e.KeyChar == Keys.Enter)
+            {
+                txtSearch_tabMuon_TextChanged(sender, e);
+            }
+
+            if ((Keys)e.KeyChar == Keys.Back)
+            {
+                
+            }
+        }
+
+        private void rbDonePaid_tabTra_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((Keys)e.KeyChar == Keys.Enter)
+            {
+                rbDonePaid_tabTra_CheckedChanged(sender, e);
+            }
+        }
+
+        private void rbNotPaid_tabTra_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((Keys)e.KeyChar == Keys.Enter)
+            {
+                rbNotPaid_tabTra_CheckedChanged(sender, e);
+            }
+        }
+
+        private void btnConfirm_tabTra_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((Keys)e.KeyChar == Keys.Enter)
+            {
+                btnConfirm_tabTra_Click(sender, e);
+            }
+        }
+
+        private void btnThoat_tabTra_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((Keys)e.KeyChar == Keys.Enter)
+            {
+                btnThoat_tabMuon_Click(sender, e);
+            }
         }
 
         /*==========================================================================

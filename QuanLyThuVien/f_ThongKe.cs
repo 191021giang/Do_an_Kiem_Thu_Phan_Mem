@@ -19,8 +19,12 @@ namespace QuanLyThuVien_GUI
 
         private void f_ThongKe_Load(object sender, EventArgs e)
         {
-            start_date = dtpStart.Value.ToString();
+            start_date = dtpStart.Value.Date.ToString();
             end_date = dtpEnd.Value.ToString();
+
+            lbStart.Text = start_date;
+            lbEnd.Text = end_date;
+
             sum_of_book();
         }
 
@@ -77,7 +81,7 @@ namespace QuanLyThuVien_GUI
         private void dtpStart_ValueChanged(object sender, EventArgs e)
         {
             start_date = convert_date(dtpStart.Value.Year, dtpStart.Value.Month, dtpStart.Value.Day);
-            lbStart.Text = dtpStart.Value.ToString();
+            lbStart.Text = dtpStart.Value.Date.ToString();
         }
 
         private void dtpEnd_ValueChanged(object sender, EventArgs e)
@@ -111,6 +115,49 @@ namespace QuanLyThuVien_GUI
             this.Hide();
             f_HomePage home = new f_HomePage();
             home.ShowDialog();
+        }
+
+        private void btnThoat_tab1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((Keys)e.KeyChar == Keys.Enter)
+            {
+                btnThoat_tab1_Click(sender, e);
+            }
+        }
+
+        private void btnShow_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((Keys)e.KeyChar == Keys.Enter)
+            {
+                dtpStart_ValueChanged(sender, e);
+                dtpEnd_ValueChanged(sender, e);
+                btnShow_Click(sender, e);
+            }
+
+        }
+
+        private void btnThoat_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((Keys)e.KeyChar == Keys.Enter)
+            {
+                btnThoat_tab1_Click(sender, e);
+            }
+        }
+
+        private void dtpEnd_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((Keys)e.KeyChar == Keys.Enter)
+            {
+                btnShow_Click(sender, e);
+            }
+        }
+
+        private void dtpDate_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((Keys)e.KeyChar == Keys.Enter)
+            {
+                dtpDate_ValueChanged(sender, e);
+            }
         }
 
         private string convert_date(int yyyy, int mm, int dd)
