@@ -35,14 +35,14 @@ GO
 CREATE TABLE UsersInformation
 (
 	number			BIGINT IDENTITY(0,1)	NOT NULL,
-	users_id		INT					NOT NULL,	
-	users_name		NVARCHAR(100)		NOT NULL,
-	users_email		VARCHAR(50)			NOT NULL,
-	users_phone		VARCHAR(20)			NOT NULL,
-	users_district	NVARCHAR(MAX)		NOT NULL,
-	users_city		NVARCHAR(MAX)		NOT NULL,	
-	users_account	VARCHAR(20) UNIQUE	NOT NULL,
-	users_password	VARCHAR(20)			NOT NULL
+	users_id		INT						NOT NULL,	
+	users_name		NVARCHAR(100)			NOT NULL,
+	users_email		VARCHAR(50)				NOT NULL,
+	users_phone		VARCHAR(20)				NOT NULL,
+	users_district	NVARCHAR(MAX)			NOT NULL,
+	users_city		NVARCHAR(MAX)			NOT NULL,	
+	users_account	VARCHAR(20) UNIQUE		NOT NULL,
+	users_password	VARCHAR(20)				NOT NULL
 	PRIMARY KEY (users_id)
 )
 GO
@@ -52,13 +52,13 @@ GO
 CREATE TABLE Borrowers
 (
 	borrower_number			BIGINT IDENTITY(0,1)	NOT NULL,
-	student_id				INT					NOT NULL,
+	student_id				INT						NOT NULL,
 	book_id					BIGINT					NOT NULL,
-	qtt_borrow				INT					NOT NULL,
-	date_of_borrow			DATETIME			NOT NULL,
-	date_of_appoint_return	DATETIME			NOT NULL,
-	date_of_return			DATETIME			NULL,
-	note					NVARCHAR(100)		NULL
+	qtt_borrow				INT						NOT NULL,
+	date_of_borrow			DATETIME				NOT NULL,
+	date_of_appoint_return	DATETIME				NOT NULL,
+	date_of_return			DATETIME				NULL,
+	note					NVARCHAR(100)			NULL
 	PRIMARY KEY (borrower_number)
 )
 GO
@@ -67,13 +67,13 @@ GO
 =================================*/
 CREATE TABLE BooksStore
 (
-	book_id				BIGINT	IDENTITY(0,1)	NOT NULL,
-	book_name			NVARCHAR(MAX)		NOT NULL,
+	book_id				BIGINT IDENTITY(0,1)	NOT NULL,
+	book_name			NVARCHAR(MAX)			NOT NULL,
 	author_id			BIGINT					NOT NULL,
 	category_id			BIGINT					NOT NULL,
-	publisher_name		NVARCHAR(MAX)		NOT NULL,
-	quantity			INT					NOT NULL,
-	available_quantity	INT					NULL,	
+	publisher_name		NVARCHAR(MAX)			NOT NULL,
+	quantity			INT						NOT NULL,
+	available_quantity	INT						NULL,	
 	PRIMARY KEY (book_id)
 )
 GO	
@@ -83,8 +83,8 @@ GO
 CREATE TABLE Authors
 (
 	author_id	BIGINT	IDENTITY(0,1)	NOT NULL,
-	author_name NVARCHAR(MAX)		NOT NULL,
-	nationality NVARCHAR(100)		NULL,
+	author_name NVARCHAR(MAX)			NOT NULL,
+	nationality NVARCHAR(100)			NULL,
 	PRIMARY KEY (author_id)
 )
 GO
@@ -94,7 +94,7 @@ GO
 CREATE TABLE Categories
 (
 	category_id		BIGINT	IDENTITY(0,1)	NOT NULL,
-	category_name	NVARCHAR(MAX)		NOT NULL,
+	category_name	NVARCHAR(MAX)			NOT NULL,
 	PRIMARY KEY (category_id)
 )
 GO
