@@ -15,3 +15,4 @@ D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\DTO\bin\Debug\DTO.pdb
 D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\DTO\obj\Debug\DTO.dll
 D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\DTO\obj\Debug\DTO.pdb
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache

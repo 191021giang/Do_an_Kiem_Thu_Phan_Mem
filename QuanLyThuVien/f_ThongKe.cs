@@ -112,9 +112,14 @@ namespace QuanLyThuVien_GUI
 
         private void btnThoat_tab1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            f_HomePage home = new f_HomePage();
-            home.ShowDialog();
+            DialogResult result = new DialogResult();
+            result = MessageBox.Show("Bạn có muốn thoát không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                this.Hide();
+                f_HomePage home = new f_HomePage();
+                home.ShowDialog();
+            }            
         }
 
         private void btnThoat_tab1_KeyPress(object sender, KeyPressEventArgs e)

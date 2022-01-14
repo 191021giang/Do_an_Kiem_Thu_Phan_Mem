@@ -26,9 +26,14 @@ namespace QuanLyThuVien
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            DN dangNhap = new DN();
-            dangNhap.ShowDialog();
+            DialogResult result = new DialogResult();
+            result = MessageBox.Show("Bạn có muốn thoát không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                this.Hide();
+                DN dangNhap = new DN();
+                dangNhap.ShowDialog();
+            }            
         }
     }
 }

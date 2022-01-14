@@ -151,7 +151,7 @@ namespace QuanLyThuVien_DAL
                 da.Fill(dt);
                 return dt;
             }
-            catch (Exception e)
+            catch (SqlException e)
             {
                 throw e;
             }

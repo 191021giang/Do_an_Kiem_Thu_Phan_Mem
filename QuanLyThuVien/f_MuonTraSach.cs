@@ -8,7 +8,7 @@ namespace QuanLyThuVien_GUI
 {
     public partial class f_MuonTraSach : Form
     {
-        #region Khai báo thư viện
+        #region Khai báo Class
         BUS_ListBooks bus_book = new BUS_ListBooks();
         BUS_ListUsers bus_user = new BUS_ListUsers();
         BUS_Borrowers bus_borrow = new BUS_Borrowers();
@@ -519,16 +519,16 @@ namespace QuanLyThuVien_GUI
             return format_date;
         }
 
-        private void setup_Datagridview(DataGridView grid, int count_col)
-        {
-            
-        }
-
         private void btnThoat_tabMuon_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            f_HomePage home = new f_HomePage();
-            home.ShowDialog();
+            DialogResult result = new DialogResult();
+            result = MessageBox.Show("Bạn có muốn thoát không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if(result == DialogResult.Yes)
+            {
+                this.Hide();
+                f_HomePage home = new f_HomePage();
+                home.ShowDialog();
+            }            
         }
 
         private void tabControl_MuonTra_SelectedIndexChanged(object sender, EventArgs e)
@@ -538,6 +538,17 @@ namespace QuanLyThuVien_GUI
                 //Cập nhật danh sách mượn                            
                 DataTable dtBorrow = bus_borrow.getGrid_Borrowers();
                 gridListBorrow.DataSource = dtBorrow;
+
+                //string item1 = cbBookName_tabMuon.SelectedValue.ToString();
+                //int item = Int32.Parse(item1);
+
+                //DataTable dtGroupBox = bus_book.BookInfor(item);
+
+                ////Điền thông tin vào các label liên quan (tự động)
+                //lbBookID_tabMuon.Text = lbBookID2_tabMuon.Text = lbBookID3_tabMuon.Text = dtGroupBox.Rows[0][0].ToString();
+                //lbCategoryName_tabMuon.Text = dtGroupBox.Rows[0][1].ToString();
+                //lbAuthName_tabMuon.Text = dtGroupBox.Rows[0][2].ToString();
+                //lbAvaidlid_tabMuon.Text = dtGroupBox.Rows[0][3].ToString();
             }
         }
 
