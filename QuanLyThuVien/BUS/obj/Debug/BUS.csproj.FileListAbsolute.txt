@@ -31,3 +31,14 @@ D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\obj\Debug\BUS.csproj.CoreCompileInp
 D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\obj\Debug\BUS.csproj.CopyComplete
 D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\obj\Debug\BUS.dll
 D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\obj\Debug\BUS.pdb
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\bin\Debug\BUS.dll
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\bin\Debug\BUS.pdb
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\bin\Debug\DAL.dll
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\bin\Debug\DTO.dll
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\bin\Debug\DAL.pdb
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\bin\Debug\DTO.pdb
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\obj\Debug\BUS.csproj.CopyComplete
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\obj\Debug\BUS.dll
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\BUS\obj\Debug\BUS.pdb

@@ -1,7 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using QuanLyThuVien;
-using DAL;
+﻿using DAL;
 using DTO;
 namespace QLTV_Tester
 {

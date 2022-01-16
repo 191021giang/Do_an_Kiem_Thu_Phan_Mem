@@ -21,3 +21,5 @@ E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\obj
 E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\obj\Debug\QLTV_Tester.csproj.CopyComplete
 E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\obj\Debug\QLTV_Tester.dll
 E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\obj\Debug\QLTV_Tester.pdb
+E:\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\obj\Debug\QLTV_Tester.csproj.AssemblyReference.cache
+E:\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\obj\Debug\QLTV_Tester.csproj.CoreCompileInputs.cache

@@ -47,12 +47,17 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BookTest.cs" />
     <Compile Include="DKTest.cs" />
     <Compile Include="DNTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Borrow_Test.cs" />
+    <Compile Include="ListBooks_Test.cs" />
+    <Compile Include="ListUsers_Test.cs" />
+    <Compile Include="Statis_Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

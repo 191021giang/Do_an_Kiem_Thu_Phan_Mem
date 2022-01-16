@@ -25,3 +25,12 @@ D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\DAL\obj\Debug\DAL.csproj.CoreCompileInp
 D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\DAL\obj\Debug\DAL.dll
 D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\DAL\obj\Debug\DAL.pdb
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\DAL\bin\Debug\DAL.dll
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\DAL\bin\Debug\DAL.pdb
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\DAL\bin\Debug\DTO.dll
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\DAL\bin\Debug\DTO.pdb
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\DAL\obj\Debug\DAL.dll
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\DAL\obj\Debug\DAL.pdb

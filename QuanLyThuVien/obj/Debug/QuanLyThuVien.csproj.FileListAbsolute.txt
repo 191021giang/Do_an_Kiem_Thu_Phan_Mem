@@ -71,3 +71,29 @@ E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\o
 E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien_GUI.f_MuonTraSach.resources
 E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien_GUI.f_ThongKe.resources
 E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.f_XemSach.resources
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\BUS.dll
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\DTO.dll
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\DAL.dll
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\BUS.pdb
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\DTO.pdb
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\DAL.pdb
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.Books.resources
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.DK.resources
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.DN.resources
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.DNAdmin.resources
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.DNUsers.resources
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien_GUI.f_HomePage.resources
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.f_Homepage_User.resources
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien_GUI.f_MuonTraSach.resources
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien_GUI.f_ThongKe.resources
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.f_XemSach.resources
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CopyComplete
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+E:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
