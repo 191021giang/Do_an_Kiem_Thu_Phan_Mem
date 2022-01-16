@@ -1,0 +1,73 @@
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\obj\Debug\QuanLyThuVien.DN.resources
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\obj\Debug\QuanLyThuVien.DNAdmin.resources
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\obj\Debug\QuanLyThuVien.DNUsers.resources
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\obj\Debug\QuanLyThuVien.DK.resources
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\bin\Debug\BUS.dll
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\bin\Debug\DTO.dll
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\bin\Debug\DAL.dll
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\bin\Debug\BUS.pdb
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\bin\Debug\DTO.pdb
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\bin\Debug\DAL.pdb
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CopyComplete
+E:\HỌC\HK1-3\Kiểm thử phần mềm\QuanLyThuVien\obj\Debug\QuanLyThuVien.Books.resources
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\BUS.dll
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\DTO.dll
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\DAL.dll
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\BUS.pdb
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\DTO.pdb
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\DAL.pdb
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.Books.resources
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.DK.resources
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.DN.resources
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.DNAdmin.resources
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.DNUsers.resources
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CopyComplete
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\BUS.dll
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\DTO.dll
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\DAL.dll
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\BUS.pdb
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\DTO.pdb
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\bin\Debug\DAL.pdb
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.Books.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.DK.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.DN.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.DNAdmin.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.DNUsers.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CopyComplete
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien_GUI.f_HomePage.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien_GUI.f_MuonTraSach.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien_GUI.f_ThongKe.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.f_Homepage_User.resources
+D:\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.f_XemSach.resources
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien_GUI.f_HomePage.resources
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.f_Homepage_User.resources
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien_GUI.f_MuonTraSach.resources
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien_GUI.f_ThongKe.resources
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QuanLyThuVien\obj\Debug\QuanLyThuVien.f_XemSach.resources
