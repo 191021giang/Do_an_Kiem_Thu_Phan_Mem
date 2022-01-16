@@ -1,0 +1,25 @@
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\bin\Debug\QLTV_Tester.dll
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\bin\Debug\QLTV_Tester.pdb
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\bin\Debug\DAL.dll
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\bin\Debug\DTO.dll
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\bin\Debug\QuanLyThuVien.exe
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\bin\Debug\BUS.dll
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\bin\Debug\DAL.pdb
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\bin\Debug\DTO.pdb
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\bin\Debug\QuanLyThuVien.pdb
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\bin\Debug\QuanLyThuVien.exe.config
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\bin\Debug\BUS.pdb
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\obj\Debug\QLTV_Tester.csproj.AssemblyReference.cache
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\obj\Debug\QLTV_Tester.csproj.CoreCompileInputs.cache
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\obj\Debug\QLTV_Tester.csproj.CopyComplete
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\obj\Debug\QLTV_Tester.dll
+E:\HỌC\HK1-3\Kiểm thử phần mềm\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\obj\Debug\QLTV_Tester.pdb
+E:\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\obj\Debug\QLTV_Tester.csproj.AssemblyReference.cache
+E:\Do_an_Kiem_Thu_Phan_Mem\QLTV_Tester\obj\Debug\QLTV_Tester.csproj.CoreCompileInputs.cache
