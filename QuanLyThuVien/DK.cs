@@ -192,7 +192,7 @@ namespace QuanLyThuVien
         private void txtSDT_Validating(object sender, CancelEventArgs e)
         {
             System.Text.RegularExpressions.Regex SDT = new System.Text
-              .RegularExpressions.Regex(@"0(3\d{9}|4\d{8}|5\d{7}|7\d{6}|8\d{5}|9\d{4})");
+              .RegularExpressions.Regex(@"0(3\d{8}|4\d{8}|5\d{7}|7\d{6}|8\d{5}|9\d{4})");
             if (txtSDT.Text.Length > 0)
             {
                 if (!SDT.IsMatch(txtSDT.Text))
